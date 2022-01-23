@@ -15,7 +15,7 @@ export default defineNuxtPlugin(nuxtApp => {
             position: "top-center",
             timeout: time,
             closeOnClick: true,
-            pauseOnFocusLoss: true,
+            pauseOnFocusLoss: false,
             pauseOnHover: true,
             draggable: true,
             draggablePercent: 0.6,
