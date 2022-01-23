@@ -19,8 +19,8 @@
       "setDefault": "设为默认阵容",
       "loadDefault": "导入默认",
       "timeSnippet": "时间标记",
-      "spellSnippet": "技能标记",
-      "spellOccurrence": "技能计时器"
+      "spellSnippet": "法术标记",
+      "spellOccurrence": "法术计时器"
     },
     "modal": {
       "timeSnippetEnterTime": "时间:",
