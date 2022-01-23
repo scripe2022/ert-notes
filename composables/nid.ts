@@ -1,0 +1,1 @@
+export const useSingle = () => useState('single');

@@ -1,0 +1,1 @@
+export const useNoteArray = () => useState('noteArray');

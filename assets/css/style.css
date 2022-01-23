@@ -1,0 +1,41 @@
+html {
+    font-size: 14px;
+}
+body {
+    font-size: 1em;
+    font-weight: 400;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+.level-button {
+    height: 2rem!important;
+}
+.level {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    vertical-align: middle;
+    line-height: 2rem;
+    flex-wrap: wrap;
+}
+.level-items-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.level-items-label {
+    font-weight: 800;
+    margin-right: 1rem;
+}
+.level-items-select {
+    height: 2rem;
+    vertical-align: middle;
+}
+.level-items {
+    vertical-align: middle;
+    display: flex;
+}

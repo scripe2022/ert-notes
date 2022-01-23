@@ -1,0 +1,1 @@
+export const useEditorJson = () => useState('editorJson');

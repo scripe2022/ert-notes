@@ -1,0 +1,61 @@
+{
+  "view": {
+    "create": "Create",
+    "template": "Templates",
+    "tactic": "tactic",
+    "playerbox": "List all players to show auto complete features",
+    "cancel": "Cancel",
+    "done": "Done",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "readonly": "readonly",
+    "notePreview": "Note Preview",
+    "newNote": "new",
+    "copyUrl": "Copy URL",
+    "copyNote": "Copy Note",
+    "saveAll": "Save All",
+    "addPlayer": "Add",
+    "setDefault": "Set as default",
+    "loadDefault": "Load default",
+    "timeSnippet": "Time Snippet",
+    "spellSnippet": "Spell Snippet",
+    "spellOccurrence": "Spell Occurrence"
+  },
+  "modal": {
+    "timeSnippetEnterTime": "Enter a time:",
+    "timeSnippetEnterPhase": "In phase:",
+    "spellSnippetEnterId": "Enter a spellID:",
+    "spellSnippetEnterCast": "Enter the cast number",
+    "spellOccurrenceTime": "Enter the time after spell cast:",
+    "spellOccurrenceId": "Enter the spellID:",
+    "spellOccurrenceCast": "Enter the cast number:"
+  },
+  "login": {
+    "username": "Username",
+    "userNotExist": "* User does not exist",
+    "password": "Password",
+    "passwordIncorrect": "* password is incorrect",
+    "readonly": "readonly mode"
+  },
+  "register": {
+    "username": "Register Username",
+    "usernameExist": "* Username already exist",
+    "password": "Password",
+    "passwordInvalid": "* password should be at least 1 characters long (at most 99)"
+  },
+  "wow": {
+    "dk": "Death Knight",
+    "druid": "Druid",
+    "hunter": "Hunter",
+    "mage": "Mage",
+    "monk": "Monk",
+    "paladin": "Paladin",
+    "priest": "Priest",
+    "rogue": "Rogue",
+    "shaman": "Shaman",
+    "warlock": "Warlock",
+    "warrior": "Warrior",
+    "dh": "Demon Hunter"
+  }
+}

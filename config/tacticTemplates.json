@@ -1,0 +1,8 @@
+{
+    "tactic": [
+        {"name": "Empty", "content": ""},
+        {"name": "M1M1M1M1M1M1M1M1", "content": "<p>M1&nbsp;test</p><p>//&nbsp;5th&nbsp;xxx</p><p>xxx<img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/square.png\"><img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/triangle.png\"></p>"},
+        {"name": "M2", "content": "<p>M2&nbsp;test</p><p>xxx<img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/square.png\"><img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/triangle.png\"></p>"},
+        {"name": "M3", "content": "<p>M3&nbsp;test</p><p>xxx<img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/square.png\"><img src=\"https://kyeremal.oss-cn-hangzhou.aliyuncs.com/ertnotes/src/wowmark/triangle.png\"></p>"}
+    ]
+}

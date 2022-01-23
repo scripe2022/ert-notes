@@ -1,0 +1,11 @@
+{
+    "mysql": {
+        "host": "<mysql-host>",
+        "port": 3306,
+        "user": "<mysql-user>",
+        "password": "<mysql-password>",
+        "database": "<mysql-database>",
+        "charset" : "utf8"
+    },
+    "baseurl": "http://127.0.0.1:3000"
+}

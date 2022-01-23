@@ -1,0 +1,62 @@
+{
+    "view": {
+      "create": "新增",
+      "template": "模板",
+      "tactic": "战术板",
+      "playerbox": "填写玩家信息以在编辑器中插入",
+      "cancel": "取消",
+      "done": "确认",
+      "login": "登录",
+      "register": "注册",
+      "logout": "登出",
+      "readonly": "只读",
+      "notePreview": "预览",
+      "newNote": "新增战术板",
+      "copyUrl": "复制链接",
+      "copyNote": "复制战术板",
+      "saveAll": "全部保存",
+      "addPlayer": "添加",
+      "setDefault": "设为默认阵容",
+      "loadDefault": "导入默认",
+      "timeSnippet": "时间标记",
+      "spellSnippet": "技能标记",
+      "spellOccurrence": "技能计时器"
+    },
+    "modal": {
+      "timeSnippetEnterTime": "时间:",
+      "timeSnippetEnterPhase": "阶段:",
+      "spellSnippetEnterId": "法术ID:",
+      "spellSnippetEnterCast": "第x次施法",
+      "spellOccurrenceTime": "计时器时间:",
+      "spellOccurrenceId": "法术ID:",
+      "spellOccurrenceCast": "第x次施法"
+    },
+    "login": {
+        "username": "用户名",
+        "userNotExist": "* 用户名不存在",
+        "password": "密码",
+        "passwordIncorrect": "* 密码错误",
+        "readonly": "只读模式"
+      },
+      "register": {
+        "username": "注册新用户",
+        "usernameExist": "* 用户名已存在",
+        "password": "密码",
+        "passwordInvalid": "* 密码长度应在1到99之间"
+      },
+      "wow": {
+        "dk": "死亡骑士",
+        "druid": "德鲁伊",
+        "hunter": "猎人",
+        "mage": "法师",
+        "monk": "武僧",
+        "paladin": "圣骑士",
+        "priest": "牧师",
+        "rogue": "潜行者",
+        "shaman": "萨满祭司",
+        "warlock": "术士",
+        "warrior": "战士",
+        "dh": "恶魔猎手"
+      }
+  }
+  
