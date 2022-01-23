@@ -14,7 +14,7 @@
             <div class="navbar-menu">
                 <span v-if="!userState.isLogin && single==undefined" class="navbar-item navbar-login" @click="login">{{ $t('view.login') }}</span>
                 <span v-if="!userState.isLogin && single==undefined" class="navbar-item navbar-login navbar-last" @click="register">{{ $t('view.register') }}</span>
-                <span v-if="userState.isLogin && single==undefined" class="navbar-item">Hello, {{ userState.username }}{{ userState.readonly?'[' + $t('view.readonly') + ']':'' }}</span>
+                <span v-if="userState.isLogin && single==undefined" class="navbar-item">{{ userState.username }}{{ userState.readonly?'[' + $t('view.readonly') + ']':'' }}</span>
                 <span v-if="userState.isLogin && single==undefined" class="navbar-item navbar-login navbar-last" @click="logout">{{ $t('view.logout') }}</span>
                 <div>
                     <select class="select-language" v-model="locale">
@@ -53,6 +53,7 @@
         height: 100%;
         cursor: pointer;
         width: 80px;
+        margin-right: 0.75rem;
     }
     @media(min-width: 1754px) {
         .one-column.navbar-main.use-single {
@@ -104,7 +105,7 @@
         padding: 0.5rem 0.75rem;
         color: #FFF;
         line-height: 2;
-        font-weight: 700;
+        font-weight: 600;
     }
     .navbar-link {
         text-decoration: none;

@@ -152,7 +152,7 @@
         border-radius: 4px;
         padding-left: 0.25rem;
         padding-right: 0.25rem;
-        font-weight: 700;
+        font-weight: 500;
     }
     select option {
         padding: 0.25em 0.5em;
@@ -170,7 +170,7 @@
         outline: none;
     }
     .input {
-        font-weight: 700;
+        font-weight: 500;
     }
 
 </style>

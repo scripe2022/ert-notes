@@ -1,11 +1,14 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("/assets/fonts/SegoeUI.ttf");
+}
 html {
     font-size: 14px;
 }
 body {
     font-size: 1em;
     font-weight: 400;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -25,10 +28,10 @@ body {
 }
 .level-items-title {
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 400;
 }
 .level-items-label {
-    font-weight: 800;
+    font-weight: 400;
     margin-right: 1rem;
 }
 .level-items-select {
