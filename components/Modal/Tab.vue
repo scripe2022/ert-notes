@@ -1,5 +1,5 @@
 <template>
-    <div class="field is-grouped">
+    <div class="field modal-around is-grouped">
         <p class="control">
             <button type="button" class="modal-button is-primary font-button" @click="plus">
                 <span class="icon">
@@ -7,7 +7,7 @@
                 </span>
             </button>
         </p>
-        <div class="control">
+        <div class="control all-width">
             <input required="required" class="input has-flag" v-model="tabContentInt" @input="callbackFun">
         </div>
         <p class="control">
@@ -19,6 +19,15 @@
         </p>
     </div>
 </template>
+
+<style>
+    .modal-around.modal-around {
+        justify-content: space-between;
+    }
+    .all-width {
+        width: 100%;
+    }
+</style>
 
 <script setup>
     import { library } from '@fortawesome/fontawesome-svg-core'

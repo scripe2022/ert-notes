@@ -7,5 +7,9 @@
         "database": "<mysql-database>",
         "charset" : "utf8"
     },
-    "baseurl": "http://127.0.0.1:3000"
+    "baseurl": "http://127.0.0.1:3000",
+    "wcl": {
+        "id": "<WarcraftLogs-Client-ID>",
+        "secret": "<WarcraftLogs-Client-Secret>"
+    }
 }

@@ -34,5 +34,16 @@ const Notes = sequelize.define("notes", {
     timestamps: false,
 });
 
+const Token = sequelize.define("token", {
+    id: {
+        type: Sequelize.INTEGER,
+        primaryKey: true
+    },
+    token: Sequelize.STRING(1000),
+    time: Sequelize.INTEGER,
+}, {
+    tableName: 'token',
+    timestamps: false,
+})
 
-export { Users, Notes };
+export { Users, Notes, Token };

@@ -20,7 +20,8 @@
       "loadDefault": "导入默认",
       "timeSnippet": "时间标记",
       "spellSnippet": "法术标记",
-      "spellOccurrence": "法术计时器"
+      "spellOccurrence": "法术计时器",
+      "importWcl": "从WCL导入"
     },
     "modal": {
       "timeSnippetEnterTime": "时间:",
@@ -37,14 +38,14 @@
         "password": "密码",
         "passwordIncorrect": "* 密码错误",
         "readonly": "只读模式"
-      },
-      "register": {
-        "username": "注册新用户",
-        "usernameExist": "* 用户名已存在",
-        "password": "密码",
-        "passwordInvalid": "* 密码长度应在1到99之间"
-      },
-      "wow": {
+    },
+    "register": {
+    "username": "注册新用户",
+    "usernameExist": "* 用户名已存在",
+    "password": "密码",
+    "passwordInvalid": "* 密码长度应在1到99之间"
+    },
+    "wow": {
         "dk": "死亡骑士",
         "druid": "德鲁伊",
         "hunter": "猎人",
@@ -57,6 +58,10 @@
         "warlock": "术士",
         "warrior": "战士",
         "dh": "恶魔猎手"
-      }
+    },
+    "wcl": {
+        "url": "WCL链接",
+        "invaid": "* URL无效"
+    }
   }
   

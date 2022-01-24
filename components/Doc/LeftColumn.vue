@@ -28,6 +28,9 @@
     .field:not(:last-child) {
         margin-bottom: 0.75rem;
     }
+    .media-content .field:last-child {
+        margin-bottom: 0.75rem;
+    }
     .players {
         padding: 1.25rem;
         background-color: #1C1C1C;

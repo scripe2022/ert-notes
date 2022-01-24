@@ -2,6 +2,13 @@
     <div>
         <div class="groups">
             <div class="field full-width">
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button type="button" class="button modal-button is-primary" @click="loadFromWcl">{{ $t('view.importWcl') }}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="field full-width">
                 <label class="label">Player</label>
                 <div class="field is-grouped">
                     <div class="control player-name-input">
@@ -35,6 +42,13 @@
                 <!-- <span class="tooltiptext">Load default player information</span> -->
             </div>
         </div>
+
+        <Modal v-if="wclShow" @modalDone="wclDone" @modalClose="wclShow=false">
+            <ModalMsg :options="{ type: 'default', content: $t('wcl.url')+':' }"></ModalMsg>
+            <ModalInput :options="{ type: 'text', placeholder: '' }" v-model:inputContent="wclUrl"></ModalInput>
+            <ModalMsg :options="{ type: 'warning', content: $t('wcl.invaid') }" v-if="urlInvalid"></ModalMsg>
+        </Modal>
+
     </div>
 </template>
 
@@ -177,7 +191,11 @@
 
 <script setup>
     const { $showToast } = useNuxtApp();
-    import draggable from 'vuedraggable'
+    import draggable from 'vuedraggable';
+    import axios from 'axios';
+    import config from '~/config/config.js';
+    import {useLoading} from 'vue-loading-overlay';
+    import 'vue-loading-overlay/dist/vue-loading.css';
 
     let playerName = ref('');
     let inputSpec = ref('0');
@@ -195,11 +213,6 @@
     const onEnd = () => {
         drag.value = false;
     }
-
-    // players.value.push({name: 'Joshprst', class: '6'});
-    // players.value.push({name: 'Macker', class: '4'});
-    // players.value.push({name: 'Moadmoad', class: '5'});
-    // players.value.push({name: 'Whaha', class: '7'});
 
     const addPlayer = () => {
         players.value.push({name: playerName.value, class: inputSpec.value});
@@ -222,6 +235,56 @@
             players.value = JSON.parse(JSON.stringify(userState.value.defaultPlayers));
         }
     }
+
+    let wclShow = ref(false);
+    let wclUrl = ref('');
+    let urlInvalid = ref(false);
+    const loadFromWcl = () => {
+        wclShow.value = true;
+    }
+
+    const wclDone = () => {
+        urlInvalid.value = false;
+        const url = wclUrl.value;
+        let reportId = url.substring(url.lastIndexOf("/") + 1);
+        const pos = reportId.indexOf('#');
+        const reg = /^[0-9a-zA-Z]*$/g;
+        if (pos >= 0) reportId = reportId.substring(0, pos);
+        
+        if (reg.test(reportId) && reportId.length==16) {
+            const $loading = useLoading();
+            const loader = $loading.show({
+            });
+            axios.post(`${config.baseurl}/server/wclplayers`, {
+                    reportId: reportId,
+                }, {
+                    headers: {
+                        'Content-type': 'application/json',
+                    }
+                })
+                .then( response => {
+                    loader.hide();
+                    if (response.data.code == '200') {
+                        players.value = [...players.value?players.value:[], ...response.data.players];
+                        $showToast('Loading successfully!', 'success', 3000);
+                        wclShow.value = false;
+                        // for (let i = 0; i < response.data.players.length; ++i) {
+                        //     players.value.push({name: playerName.value, class: inputSpec.value});
+                        // }
+                    }
+                    else {
+                        $showToast('Error Occurs', 'error', 3000);
+                    }
+                }).catch( error => {
+                    loader.hide();
+                    console.log(error);
+                });
+        }
+        else {
+            urlInvalid.value = true;
+        }
+    }
+
 
     watch(players, (newValue, oldValue) => {
         if (currentSelected.value != '-1') {

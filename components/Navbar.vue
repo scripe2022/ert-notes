@@ -129,6 +129,9 @@
 
     library.add(faBars);
 
+    import {useLoading} from 'vue-loading-overlay';
+    import 'vue-loading-overlay/dist/vue-loading.css';
+
     let userinfo = ref([]);
 
     const single = useSingle();
@@ -167,7 +170,6 @@
     let usernameInput = ref('');
     let passwordInput = ref('');
     let readonly = ref(false);
-    let locked = false;
 
     let loginShow = ref(false);
     const loginOptionExtra = ref({
@@ -189,10 +191,11 @@
     }
 
     const loginDone = () => {
-        if (locked) return;
         loginOptionExtra.value.usernameMsgShow = false;
         loginOptionExtra.value.passwordMsgShow = false;
-        locked = true;
+        const $loading = useLoading();
+        const loader = $loading.show({
+        });
         axios.post(`${config.baseurl}/server/login`, {
                 username: usernameInput.value,
                 passwordHash: md5(passwordInput.value),
@@ -203,7 +206,7 @@
                 }
             })
             .then( response => {
-                locked = false;
+                loader.hide();
                 if (response.data.code == '401') {
                     loginOptionExtra.value.usernameMsgShow = true;
                 }
@@ -221,6 +224,7 @@
                     sideBarButtonClick();
                 }
             }).catch( error => {
+                loader.hide();
                 console.log(error);
             });
     }
@@ -248,14 +252,15 @@
     }
 
     const registerDone = () => {
-        if (locked) return;
         registerOptionExtra.value.usernameMsgShow = false;
         registerOptionExtra.value.passwordMsgShow = false;
         if (passwordInput.value.length<=0 || passwordInput.value.length >= 100) {
             registerOptionExtra.value.passwordMsgShow = true;
             return;
         }
-        locked = true;
+        const $loading = useLoading();
+        const loader = $loading.show({
+        });
         axios.post(`${config.baseurl}/server/register`, {
                 username: usernameInput.value,
                 passwordHash: md5(passwordInput.value),
@@ -265,7 +270,7 @@
                 }
             })
             .then( response => {
-                locked = false;
+                loader.hide();
                 if (response.data.code == '200') {
                     $showToast('Register Successfully!', 'success', 3000);
                     registerShow.value = false;
@@ -274,6 +279,7 @@
                     registerOptionExtra.value.usernameMsgShow = 'true';
                 }
             }).catch( error => {
+                loader.hide();
                 console.log(error);
             });
     }
