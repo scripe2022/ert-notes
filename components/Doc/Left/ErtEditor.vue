@@ -55,6 +55,8 @@
         <Modal v-if="spellOccurrenceShow" @modalDone="spellOccurrenceDone" @modalClose="spellOccurrenceShow=false">
             <ModalMsg :options="{ type: 'default', content: $t('modal.spellOccurrenceTime') }"></ModalMsg>
             <ModalInput :options="{ type: 'text', placeholder: 'e.g. 0:10' }" v-model:inputContent="spellOccurrenceTime"></ModalInput>
+            <ModalMsg :options="{ type: 'default', content: $t('modal.condition')+':' }"></ModalMsg>
+            <ModalSelect :options="{ data: [ {value:'SCC', show:$t('modal.SCC')}, {value:'SCS', show:$t('modal.SCS')}, {value:'SAA', show:$t('modal.SAA')}, {value:'SAR', show:$t('modal.SAR')} ] }" v-model:selectContent="selectContent"></ModalSelect>
             <ModalMsg :options="{ type: 'default', content: $t('modal.spellOccurrenceId') }"></ModalMsg>
             <ModalTab v-model:tabContent="spellOccurrenceId"></ModalTab>
             <ModalMsg :options="{ type: 'default', content: $t('modal.spellOccurrenceCast') }"></ModalMsg>
@@ -92,6 +94,7 @@
         font-size: 1.1rem;
         line-height: 1.42;
         font-weight: 400;
+        font-family: "UbuntuMono";
     }
     .ProseMirror>* {
         cursor: text;
@@ -290,13 +293,14 @@
 
     // Spell Occurrence
     let spellOccurrenceShow = ref(false);
-    const spellOccurrenceTime = ref('');
-    const spellOccurrenceId = ref('123456');
-    const spellOccurrenceCast = ref('0');
+    let spellOccurrenceTime = ref('');
+    let spellOccurrenceId = ref('123456');
+    let spellOccurrenceCast = ref('0');
+    let selectContent = ref('SCC');
 
     const spellOccurrenceDone = () => {
         spellOccurrenceShow.value = false;
-        const str = `{time:${spellOccurrenceTime.value},SCC:${spellOccurrenceId.value}:${spellOccurrenceCast.value}} `;
+        const str = `{time:${spellOccurrenceTime.value},${selectContent.value}:${spellOccurrenceId.value}:${spellOccurrenceCast.value}} `;
         insertContent(str);
     }
 

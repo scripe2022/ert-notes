@@ -30,7 +30,12 @@
     "spellSnippetEnterCast": "Enter the cast number",
     "spellOccurrenceTime": "Enter the time after spell cast:",
     "spellOccurrenceId": "Enter the spellID:",
-    "spellOccurrenceCast": "Enter the cast number:"
+    "spellOccurrenceCast": "Enter the cast number:",
+    "SCC": "Spell Cast Successfully",
+    "SCS": "Spell Cast Start",
+    "SAA": "Spell Aura Applied",
+    "SAR": "Spell Aura Removed",
+    "condition": "Condition"
   },
   "login": {
     "username": "Username",
@@ -62,5 +67,30 @@
   "wcl": {
     "url": "WarcraftLogs URL",
     "invaid": "* URL invalid!"
+  },
+  "raid": {
+    "9": "Shadowlands",
+    "t27": "Castle Nathria",
+    "t27-1": "Shriekwing",
+    "t27-2": "Huntsman Altimor",
+    "t27-3": "Sun King's Salvation",
+    "t27-4": "Hungering Destroyer",
+    "t27-5": "Artificer Xy'Mox",
+    "t27-6": "Lady Inerva Darkvein",
+    "t27-7": "Council of Blood",
+    "t27-8": "Sludgefist",
+    "t27-9": "Stone Legion Generals",
+    "t27-10": "Sire Denathriu",
+    "t28": "Sanctum of Domination",
+    "t28-1": "Tarragrue",
+    "t28-2": "Eye of the Jailer",
+    "t28-3": "The Nine",
+    "t28-4": "Soulrender Dormazain",
+    "t28-5": "Remnant of Ner'zhul",
+    "t28-6": "Painsmith Raznal",
+    "t28-7": "Guardian of the First Ones",
+    "t28-8": "Fatescribe Roh-Kalo",
+    "t28-9": "Kel'Thuzad",
+    "t28-10": "Sylvanas Windrunne"
   }
 }

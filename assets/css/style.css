@@ -1,5 +1,9 @@
 @font-face {
-    font-family: "Segoe UI";
+    font-family: "UbuntuMono";
+    src: url("/assets/fonts/UbuntuMono-Regular.ttf");
+}
+@font-face {
+    font-family: "SegoeUI";
     src: url("/assets/fonts/SegoeUI.ttf");
 }
 html {

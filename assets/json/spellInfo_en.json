@@ -1,0 +1,1837 @@
+{
+    "t27-1": [
+        {
+            "tag": "Stage One - Thirst for Blood",
+            "spell": [
+                {
+                    "spellid": 340324,
+                    "title": "Sanguine Ichor",
+                    "content": "A pool of ichor that inflicts 6186 Shadow damage every 1 sec to players who stand within it."
+                },
+                {
+                    "spellid": 342074,
+                    "title": "Echolocation",
+                    "content": "Shriekwing senses a player and descends on their location after 6 sec."
+                },
+                {
+                    "spellid": 342863,
+                    "title": "Echoing Screech",
+                    "content": "Echoing shrieks inflict 14435 Sonic damage upon contact, horrifying the target for 4 sec and descending on that location after 6 sec."
+                },
+                {
+                    "spellid": 345397,
+                    "title": "Wave of Blood",
+                    "content": "Shriekwing inflicts 10311 Shadow damage to all enemies and an additional 3093 Shadow damage every 2 sec for 12 sec."
+                },
+                {
+                    "spellid": 343005,
+                    "title": "Blind Swipe",
+                    "content": "Shriekwing inflicts 28870 Physical damage to players within a 12 yard frontal cone."
+                },
+                {
+                    "spellid": 328857,
+                    "title": "Exsanguinating Bite",
+                    "content": "Shriekwing inflicts 49492 Physical damage and afflicts the target with 10 applications of Exsanguinated."
+                },
+                {
+                    "spellid": 328897,
+                    "title": "Exsanguinated",
+                    "content": "Afflicted players receive 10% reduced healing, take 5% more Physical damage, and bleed for 206 Physical damage every 1.5 sec. This effect stacks, but loses an application every 1.5 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Two - Terror of Castle Nathria",
+            "spell": [
+                {
+                    "spellid": 328921,
+                    "title": "Blood Shroud",
+                    "content": "Upon reaching 100 blood Shriekwing fades into the shadows and begins to prowl blindly about The Grand Walk.Players who come within 12 yards of Shriekwing are murdered."
+                },
+                {
+                    "spellid": 329362,
+                    "title": "Echoing Sonar",
+                    "content": "Echoing shrieks inflict 14435 Sonic damage upon contact, horrifying for 4 sec and causing a Descent at that location after 6 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 330711,
+                    "title": "Earsplitting Shriek",
+                    "content": "Shriekwing inflicts 20622 Sonic damage to all players within her line of sight and an additional 4949 Sonic damage every 2 sec for 12 sec. Players also leave behind Sanguine Ichor at their location."
+                },
+                {
+                    "spellid": 345936,
+                    "title": "Earsplitting Shriek",
+                    "content": "Shriekwing inflicts 20622 Sonic damage to all players within her line of sight and an additional 4949 Sonic damage every 2 sec for 12 sec. Players also leave behind Sanguine Ichor at their location."
+                },
+                {
+                    "spellid": 341684,
+                    "title": "The Blood Lantern",
+                    "content": "The lantern emanates Bloodlight to all players within 4 yards. Carrying the lantern extends this light to 14 yards.Allowing the lantern to be hit by Descent or Deadly Descent will shatter it, releasing Ravenous Horrors."
+                }
+            ]
+        }
+    ],
+    "t27-2": [
+        {
+            "tag": "Huntsman Altimor",
+            "spell": [
+                {
+                    "spellid": 335114,
+                    "title": "Sinseeker",
+                    "content": "Altimor marks 3 players and fires at them. Each bolt inflicts 82486 Physical damage and an additional 2268 Shadow damage every 2 sec for 30 sec to the marked player and any players in a line."
+                },
+                {
+                    "spellid": 334404,
+                    "title": "Spreadshot",
+                    "content": "Altimor fires a cone of bolts at players inflicting 13610 Physical damage."
+                }
+            ]
+        },
+        {
+            "tag": "Margore",
+            "spell": [
+                {
+                    "spellid": 334971,
+                    "title": "Jagged Claws",
+                    "content": "Margore shreds his target, inflicting 28870 Physical damage and an additional 7424 Physical damage every 3 sec for 30 sec."
+                },
+                {
+                    "spellid": 334945,
+                    "title": "Vicious Lunge",
+                    "content": "Margore sets his sights on a player, after 6 sec he lunges at them inflicting 92797 Physical damage divided evenly by players within 6 yards."
+                }
+            ]
+        },
+        {
+            "tag": "Bargast",
+            "spell": [
+                {
+                    "spellid": 334797,
+                    "title": "Rip Soul",
+                    "content": "Bargast rips out the soul of a player, inflicting 37119 Shadow damage and causing a soul to appear that drifts toward Altimor until it is healed to full.The soul's starting health is proportional to the health of the player being struck by Rip Soul.If the soul reaches Altimor, he gains Devour Soul for 30 sec."
+                },
+                {
+                    "spellid": 334884,
+                    "title": "Devour Soul",
+                    "content": "Altimor consumes the player's soul, increasing all damage done by 200%."
+                },
+                {
+                    "spellid": 334757,
+                    "title": "Shades of Bargast",
+                    "content": "Bargast creates shades of itself that cast Deathly Roar. While under a loss of control effect Shades of Bargast gain stacks of Destabilize, increasing all damage taken by 100%."
+                }
+            ]
+        },
+        {
+            "tag": "Hecutis",
+            "spell": [
+                {
+                    "spellid": 334860,
+                    "title": "Crushing Stone",
+                    "content": "Hecutis' melee attacks increase his Physical damage done by 25% and reduce his movement.While moving, Hecutis sheds stacks of Crushing Stone and triggers Shattering Stone, inflicting 6186 Nature damage to all players."
+                },
+                {
+                    "spellid": 334852,
+                    "title": "Petrifying Howl",
+                    "content": "Hecutis petrifies players, inflicting 825 Nature damage and reducing movement speed by 5% every 1 sec.When this effect expires, petrified players shatter inflicting 6186 Nature damage to players within 10 yards and create a patch of Stone Shards at their location."
+                },
+                {
+                    "spellid": 334893,
+                    "title": "Stone Shards",
+                    "content": "An area of sharp stone erupts from the player, inflicting 3296 Nature damage every 1.5 sec and reducing movement speed by 25% to players standing in the area."
+                }
+            ]
+        }
+    ],
+    "t27-3": [
+        {
+            "tag": "Shade of Kael'thas",
+            "spell": [
+                {
+                    "spellid": 326455,
+                    "title": "Fiery Strike",
+                    "content": "The Shade of Kael'thas lets loose a fiery blast, inflicting 9898 Fire damage and applying Burning Remnants to all enemies in a 12 yard frontal cone."
+                },
+                {
+                    "spellid": 326456,
+                    "title": "Burning Remnants",
+                    "content": "Inflicts 2475 Fire damage every 1 sec for 15 sec. This effect stacks."
+                },
+                {
+                    "spellid": 325877,
+                    "title": "Ember Blast",
+                    "content": "The Shade of Kael'thas calls down a pillar of fire on a player, inflicting 123730 Fire damage to all enemies within 6 yards of the impact point, split evenly between all enemies hit."
+                },
+                {
+                    "spellid": 329518,
+                    "title": "Blazing Surge",
+                    "content": "At 100 Energy, the Shade of Kael'thas releases a massive blast of fire, inflicting 30932 Fire damage in a 40 yard frontal cone."
+                },
+                {
+                    "spellid": 328579,
+                    "title": "Smoldering Remnants",
+                    "content": "A pool of flames lingers, inflicting 10306 Fire damage every 1 sec."
+                },
+                {
+                    "spellid": 328479,
+                    "title": "Eyes on Target",
+                    "content": "A Bleakwing Assassin is directing its attacks at you!"
+                }
+            ]
+        },
+        {
+            "tag": "Rockbound Vanquisher",
+            "spell": [
+                {
+                    "spellid": 325440,
+                    "title": "Vanquishing Strike",
+                    "content": "Slams the target inflicting 19797 Physical damage and applying Vanquished. This effect stacks."
+                },
+                {
+                    "spellid": 325442,
+                    "title": "Vanquished",
+                    "content": "Inflicts 3299 Physical every 1 sec for 20 sec. This effect stacks."
+                },
+                {
+                    "spellid": 325506,
+                    "title": "Concussive Smash",
+                    "content": "The Rockbound Vanquisher crashes down, inflicting 6186 Physical damage to all players, granting the Rockbound Vanquisher an application of Reverberation."
+                },
+                {
+                    "spellid": 341473,
+                    "title": "Crimson Flurry",
+                    "content": "The Bleakwing Assassin teleports to behind its marked players, inflicting 14435 Physical to players within 8 yards and additionally bleeds targets for 2887 Physical damage every 1 sec for 10 sec."
+                },
+                {
+                    "spellid": 333145,
+                    "title": "Return to Stone",
+                    "content": "The Bleakwing Assassin turns to stone, healing for 100% of their maximum health after 8 sec."
+                },
+                {
+                    "spellid": 333002,
+                    "title": "Vulgar Brand",
+                    "content": "Brands all enemies with a shadowy mark, inflicting 1649 Shadow damage and increasing damage taken by 35% for 15 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Soul Infuser",
+            "spell": [
+                {
+                    "spellid": 326078,
+                    "title": "Infuser's Boon",
+                    "content": "Increases all healing done by 100% for 14 sec. This effect stacks."
+                },
+                {
+                    "spellid": 339251,
+                    "title": "Drained Soul",
+                    "content": "Increases damage taken from Soul Infusion by 100% and prohibits interaction with Soul Pedestals for 1 min. This effect stacks."
+                }
+            ]
+        },
+        {
+            "tag": "High Torturer Darithos",
+            "spell": [
+                {
+                    "spellid": 328889,
+                    "title": "Greater Castigation",
+                    "content": "Channels dark energy into multiple players, inflicting 3506 Shadow damage every 0.5 sec to players within 6 yards of each player."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 337859,
+                    "title": "Cloak of Flames",
+                    "content": "A cloak of fire enshrouds Kael'thas, absorbing 361636 healing received. Removing the Cloak of Flames interrupts Kael'thas."
+                },
+                {
+                    "spellid": 343026,
+                    "title": "Cloak of Flames",
+                    "content": "A cloak of fire enshrouds the Shade of Kael'thas, absorbing 478316 damage and causing him to cast Unleashed Pyroclasm. Removing the Cloak of Flames interrupts the Shade of Kael'thas."
+                }
+            ]
+        }
+    ],
+    "t27-4": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 329298,
+                    "title": "Gluttonous Miasma",
+                    "content": "Hungering energies surround the target reducing all healing received by 100% and inflicting 3341 Shadow damage every 1.5 sec for 24 sec. &nbsp;In addition, the target leeches 3196 health from all allies within 5 yards every 1 sec."
+                },
+                {
+                    "spellid": 334522,
+                    "title": "Consume",
+                    "content": "The Hungering Destroyer begins to devour all nearby energy, pulling players towards its location and leeching up to 35057 health from all players every 2 sec for 6 sec. &nbsp;Players farther from the Hungering Destroyer have less health leeched."
+                },
+                {
+                    "spellid": 329725,
+                    "title": "Expunge",
+                    "content": "The Hungering Destroyer excites the life energy in all players causing them to erupt, inflicting 12992 Shadow damage to nearby players. &nbsp;The size of the effect increases based on the target's missing health."
+                },
+                {
+                    "spellid": 334266,
+                    "title": "Volatile Ejection",
+                    "content": "The Hungering Destroyer unleashes energy towards marked targets, inflicting 12373 Shadow damage to players in that direction. &nbsp;In addition, players hit by the effect take 500% increased damage from Volatile Ejection for 40 sec."
+                },
+                {
+                    "spellid": 329455,
+                    "title": "Desolate",
+                    "content": "The Hungering Destroyer unleashes torrents of energy, inflicting 14848 Shadow damage to all players."
+                },
+                {
+                    "spellid": 329774,
+                    "title": "Overwhelm",
+                    "content": "The Hungering Destroyer smashes its current target, inflicting 49492 Physical damage."
+                },
+                {
+                    "spellid": 332295,
+                    "title": "Growing Hunger",
+                    "content": "With each consecutive melee attack against the same target, the damage of Hungering Strikes is increased by 8%. This effect stacks.When the Hungering Destroyer switches to a new target, Growing Hunger is reset."
+                }
+            ]
+        }
+    ],
+    "t27-5": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 328437,
+                    "title": "Dimensional Tear",
+                    "content": "Xy'mox marks 2 players, after 8 sec the mark detonates inflicting 8258 Arcane damage to players within 6 yards and creates a wormhole at their location.Players can travel between wormholes."
+                },
+                {
+                    "spellid": 325236,
+                    "title": "Glyph of Destruction",
+                    "content": "Xy'mox marks their primary target. The target suffers 6186 Arcane damage every 1 sec for 4 sec.When Glyph of Destruction expires it inflicts up to 39181 Arcane damage to all players and afflicts the primary target with Arcane Vulnerability for 45 sec. This damage is reduced the further away players are from the blast."
+                },
+                {
+                    "spellid": 326271,
+                    "title": "Stasis Trap",
+                    "content": "Xy'mox deploys a set of Stasis Traps at the locations of several players, after 4 sec the traps arm. Players that trip a Stasis Trap are stunned and suffer 8247 Arcane damage every 2 sec until the Stasis Trap is destroyed."
+                },
+                {
+                    "spellid": 335013,
+                    "title": "Rift Blast",
+                    "content": "Xy'mox opens rifts that emit a blast of energy after a short delay, inflicting 24746 Arcane damage to players in a line."
+                },
+                {
+                    "spellid": 325399,
+                    "title": "Hyperlight Spark",
+                    "content": "Xy'mox creates a Hyperlight Spark that jumps between all players, inflicting 10517 Arcane damage."
+                }
+            ]
+        },
+        {
+            "tag": "The Relics of Castle Nathria",
+            "spell": [
+                {
+                    "spellid": 340758,
+                    "title": "Fleeting Spirits",
+                    "content": "Xy'mox activates the crystal, releasing Fleeting Spirits that fixate players and attempt to possess them.Fleeting Spirits will dissipate if they are unable to reach their target within 11 sec."
+                },
+                {
+                    "spellid": 327902,
+                    "title": "Fixate",
+                    "content": "Xy'mox activates the crystal, releasing Fleeting Spirits that fixate players and attempt to possess them.Fleeting Spirits will dissipate if they are unable to reach their target within 11 sec."
+                },
+                {
+                    "spellid": 327414,
+                    "title": "Possession",
+                    "content": "Upon reaching their fixate target, the spirit possesses the player, forcing them to attack their allies until sufficient damage is taken."
+                },
+                {
+                    "spellid": 340788,
+                    "title": "Seeds of Extinction",
+                    "content": "Xy'mox activates the root, planting 8 Seeds of Extinction. After 20 sec the seeds explode inflicting 123730 Nature damage to players within 50 yards.Players can interact with seeds to move them."
+                },
+                {
+                    "spellid": 329107,
+                    "title": "Extinction",
+                    "content": "Xy'mox activates the root, planting 4 Seeds of Extinction. After 20 sec the seeds explode inflicting 150 Nature damage to players within 50 yards.Players can interact with seeds to move them."
+                },
+                {
+                    "spellid": 340860,
+                    "title": "Withering Touch",
+                    "content": "The Root lashes out, inflicting 8414 Nature damage every 1.5 sec for 21 sec."
+                },
+                {
+                    "spellid": 328789,
+                    "title": "Annihilate",
+                    "content": "Xy'mox activates the Edge of Annihilation, causing it to draw players in with increasing intensity until it erupts, inflicting 206216 Shadow damage to all players within 25 yards."
+                }
+            ]
+        }
+    ],
+    "t27-6": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 331870,
+                    "title": "Focus Anima",
+                    "content": "Lady Inerva Darkvein focuses anima into one of the containers, locking it closed and increasing the rate it gains anima."
+                },
+                {
+                    "spellid": 341621,
+                    "title": "Expose Desires",
+                    "content": "The caster exposes the deepest desires of the target's heart, inflicting 37119 Physical damage and afflicts the victim with Warped Desires."
+                },
+                {
+                    "spellid": 325382,
+                    "title": "Warped Desires",
+                    "content": "The victim suffers 57741 Shadow damage over 21 sec."
+                },
+                {
+                    "spellid": 340452,
+                    "title": "Change of Heart",
+                    "content": "In 4 sec., you will trigger a detonation for up to 24746 Shadow damage to all allies within 300 yards. Targets that are further away from the epicenter suffer less damage."
+                },
+                {
+                    "spellid": 325936,
+                    "title": "Shared Cognition",
+                    "content": "Damage dealt to the victim of Expose Desires is copied to targets with Shared Cognition applied."
+                }
+            ]
+        },
+        {
+            "tag": "Container of Bottled Anima",
+            "spell": [
+                {
+                    "spellid": 325769,
+                    "title": "Bottled Anima",
+                    "content": "The caster hurls out vials of bottled anima that inflict 16497 Shadow damage to all players within 4 yards of the impact.If no players are hit by the impact, Unleashed Volatility occurs."
+                },
+                {
+                    "spellid": 325713,
+                    "title": "Lingering Anima",
+                    "content": "The pool of anima inflicts 10311 Shadow damage to all players standing in it every 1 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Container of Sin",
+            "spell": [
+                {
+                    "spellid": 324983,
+                    "title": "Shared Suffering",
+                    "content": "Lady Inerva Darkvein links two targets together for 1 min. Linked targets and any other players caught between them suffer 1650 Shadow damage every 0.5 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Container of Concentrated Anima",
+            "spell": [
+                {
+                    "spellid": 332664,
+                    "title": "Concentrated Anima",
+                    "content": "Inflicts 10311 Shadow damage over 10 sec and triggers an explosion of Unleased Shadow that will summon a Conjured Manifestation."
+                },
+                {
+                    "spellid": 331573,
+                    "title": "Unconscionable Guilt",
+                    "content": "Burdens the target with unconscionable guilt, inflicting 20622 Shadow damage and increasing damage taken from Unconscionable Guilt and Expose Desires by 10% for 15 sec."
+                },
+                {
+                    "spellid": 331550,
+                    "title": "Condemn",
+                    "content": "Inflicts 20622 Shadow damage to all enemies."
+                }
+            ]
+        }
+    ],
+    "t27-7": [
+        {
+            "tag": "Castellan Niklaus",
+            "spell": [
+                {
+                    "spellid": 346690,
+                    "title": "Duelist's Riposte",
+                    "content": "Castellan Niklaus demonstrates a stunning counter-attack, inflcting 30933 Physical damage and increasing the damge of Duelist's Riposte by 100% for 25 sec. &nbsp;This effect stacks."
+                },
+                {
+                    "spellid": 346698,
+                    "title": "Summon Dutiful Attendant",
+                    "content": "Calls forth a Dutiful Attendant to shield the caster's allies."
+                },
+                {
+                    "spellid": 330978,
+                    "title": "Dredger Servants",
+                    "content": "The Castellan orders several Begrudging Waiters to begin harassing players."
+                },
+                {
+                    "spellid": 330965,
+                    "title": "Castellan's Cadre",
+                    "content": "Castellan Niklaus calls forth Veteran Stoneguard to his aid."
+                },
+                {
+                    "spellid": 346790,
+                    "title": "Sintouched Blade",
+                    "content": "The Veteran Stoneguard slashes at its current target, inflicting 32995 Physical damage and leeching some of the target's essence, permanently increasing their damage done by 50%. This effect stacks."
+                }
+            ]
+        },
+        {
+            "tag": "Baroness Frieda",
+            "spell": [
+                {
+                    "spellid": 346651,
+                    "title": "Drain Essence",
+                    "content": "Baroness Frieda, pulls the life energy from her targets, inflicting 7424 Shadow damage every 1 sec for 4 sec."
+                },
+                {
+                    "spellid": 337110,
+                    "title": "Dreadbolt Volley",
+                    "content": "The Baroness launches a blast of anima at every &nbsp;player, inflicting 6599 Shadow damage. Each player hit by the blast suffers an additial 2145 Shadow damage every 1.5 sec for 12 sec. This effect stacks."
+                },
+                {
+                    "spellid": 346657,
+                    "title": "Prideful Eruption",
+                    "content": "The Baroness violently unleashes the welled-up pride within each player causing them to erupt, inflicting 18594 Shadow damage to all players within 6 yards."
+                },
+                {
+                    "spellid": 346945,
+                    "title": "Manifest Pain",
+                    "content": "Baroness Frieda manifests a pool at the player's location that lasts for 1.5 min. &nbsp;Standing within the pool inflicts 3093 Shadow damage every 0.5 sec."
+                },
+                {
+                    "spellid": 346681,
+                    "title": "Soul Spikes",
+                    "content": "Baroness Frieda summons forth 4 Soul Spikes that impale her current target over 4.5 sec. &nbsp;Each spike inflicts 23509 Physical damage and increases the damge taken from Soul Spikes for 4.5 sec. &nbsp;In addition, each impact radiates a portion of the damage inflicted to all players as Shadow damage."
+                }
+            ]
+        },
+        {
+            "tag": "Lord Stavros",
+            "spell": [
+                {
+                    "spellid": 327497,
+                    "title": "Evasive Lunge",
+                    "content": "Lord Stavros teleports behind his current target before lunging forward, inflicting 30933 Physical damage to players in a line 20 yards long and increasing their damage taken by Evasive Lunge by 100% for until canceled. This effect stacks."
+                },
+                {
+                    "spellid": 331634,
+                    "title": "Dark Recital",
+                    "content": "Lord Stavros assigns players to dance in pairs for 6 sec. While farther than 8 yards from your partner Lord Stavros punishes you, inflicting 3093 Shadow damage every 0.5 sec.In addition, Lord Stavros encourages your dance moves by marking each partner's location every 0.5 sec, causing it to erupt inflicting 16497 Shadow damage to all players within 2.5 yards of the impact."
+                },
+                {
+                    "spellid": 346800,
+                    "title": "Waltz of Blood",
+                    "content": "Lord Stavros calls Waltzing Venthyr to careen across the dance floor. Upon contact players suffer 16497 Shadow damage and are stunned for 1 sec."
+                },
+                {
+                    "spellid": 346303,
+                    "title": "Violent Uproar",
+                    "content": "Venthyr noble men and women emit violent outbursts of celebratory anima when in the throes of revelry. Each burst inflicts 205979 Shadow damage to players within 11 yards."
+                }
+            ]
+        },
+        {
+            "tag": "Intermission: The Danse Macabre",
+            "spell": [
+                {
+                    "spellid": 330959,
+                    "title": "Danse Macabre",
+                    "content": "All damage taken reduced by 100% during the Danse Macabre."
+                },
+                {
+                    "spellid": 330848,
+                    "title": "Wrong Moves",
+                    "content": "Failure to perform the correct dance step inflicts 1237 Shadow damage every 1 sec and removes any Fancy Footwork. &nbsp;This damage continues to increase until you find your proper location or the Danse Macabre ends."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 347350,
+                    "title": "Dancing Fever",
+                    "content": "The magic of the dance enthralls players, applying 3 stacks of Dancing Fever for 30 sec. Each time the player jumps, 4492 Shadow damage is inflicted to all players and a stack of Dancing Fever is removed.Players who fail to remove all stacks before 30 sec are slain."
+                }
+            ]
+        }
+    ],
+    "t27-8": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 331209,
+                    "title": "Hateful Gaze",
+                    "content": "Upon reaching 100 rage Sludgefist focuses his gaze on a target, then charges in their direction after 4 sec."
+                },
+                {
+                    "spellid": 331314,
+                    "title": "Destructive Impact",
+                    "content": "Sludgefist slams into an obstacle, inflicting 28870 Physical damage to all players while stunning him and increasing his damage taken by 100% for 12 sec"
+                },
+                {
+                    "spellid": 335293,
+                    "title": "Chain Link",
+                    "content": "Sludgefist marks two players and after 6 sec shackles them together. The chains inflict 1361 Physical damage to both players every 2 sec for 56 sec.Moving 14 yards apart shatters the chain."
+                },
+                {
+                    "spellid": 332318,
+                    "title": "Destructive Stomp",
+                    "content": "Sludgefist inflicts 123730 Physical damage to enemies within 16 yards and knocks them back.Destroys nearby pillars."
+                },
+                {
+                    "spellid": 335361,
+                    "title": "Stonequake",
+                    "content": "Inflicts 1485 Physical damage every 0.5 sec and reduces players' movement speed by 25%."
+                },
+                {
+                    "spellid": 332687,
+                    "title": "Colossal Roar",
+                    "content": "Sludgefist unleashes a powerful roar, inflicting 19209 Sonic damage to all players and pushing them away."
+                },
+                {
+                    "spellid": 335470,
+                    "title": "Chain Slam",
+                    "content": "Sludgefist immobilizes a player with heavy chains.After 4 sec Sludgefist pulls that player and allies within 7 yards towards him, inflicting 80424 Physical damage divided evenly between affected players."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 341102,
+                    "title": "Fractured Boulder",
+                    "content": "Inflicts 9898 Physical damage divided evenly between players within 4.5 yards of the impact location.The boulder then splits into two Fractured Debris which inflict 2475 Physical damage to players within 3 yards of each impact location.A Fractured Impact occurs if any piece fails to hit at least one player."
+                },
+                {
+                    "spellid": 340817,
+                    "title": "Seismic Shift",
+                    "content": "The stones beneath each player erupt after 4 sec, inflicting 16497 Physical damage to allies within 4.5 yds."
+                },
+                {
+                    "spellid": 341250,
+                    "title": "Gruesome Rage",
+                    "content": "At 30% remaining health Sludgefist enrages, gaining 20% increased damage and increasing attack speed by 20%."
+                }
+            ]
+        }
+    ],
+    "t27-9": [
+        {
+            "tag": "stage One: Kaal's Assault",
+            "spell": [
+                {
+                    "spellid": 329636,
+                    "title": "Hardened Stone Form",
+                    "content": "Kaal's skin hardens, reducing all &nbsp;damage taken by 95% until removed."
+                },
+                {
+                    "spellid": 333387,
+                    "title": "Wicked Blade",
+                    "content": "Kaal throws a ricocheting blade at marked targets which explodes upon contact with any player, inflicting 22684 Shadow damage to players within 8 yards. This applies Wicked Laceration."
+                },
+                {
+                    "spellid": 333913,
+                    "title": "Wicked Laceration",
+                    "content": "Kaal's Wicked Blade afflict players with a permanent wound, causing them to bleed for 4949 Physical damage every 2 sec."
+                },
+                {
+                    "spellid": 334765,
+                    "title": "Heart Rend",
+                    "content": "Kaal crushes the souls of up to 4 players, inflicting 8249 Shadow damage every 3 sec for 36 sec. &nbsp;Upon removal the player is afflicted with Heart Hemorrhage."
+                },
+                {
+                    "spellid": 334929,
+                    "title": "Serrated Swipe",
+                    "content": "Kaal slashes powerfully, inflicting 49492 Physical damage. This applies Serrated Tear."
+                },
+                {
+                    "spellid": 339690,
+                    "title": "Crystalize",
+                    "content": "Grashaal channels at a random player, inflicting 4120 Nature damage every 1 sec for 5 sec, triggering a Crystalline Burst after."
+                },
+                {
+                    "spellid": 342544,
+                    "title": "Pulverizing Meteor",
+                    "content": "Grashaal calls a massive stone from the sky, inflicting 375313 Nature damage divided evenly among players within an 8 yard radius of the impact."
+                },
+                {
+                    "spellid": 343063,
+                    "title": "Stone Spike",
+                    "content": "While flying, Grashaal launches a stone spike at random players, inflicting 6186 Physical damage and reducing their movement speed by 30% for 8 sec."
+                },
+                {
+                    "spellid": 342733,
+                    "title": "Ravenous Feast",
+                    "content": "Stone Legion Goliath leaps at a random player, inflicting 10311 Physical damage and Stunning the player for 4 sec. This is followed immediately by flurry of attacks, inflicting 2887 Physical damage every 0.5 sec for 4 sec."
+                },
+                {
+                    "spellid": 343898,
+                    "title": "Soultaint Effigy",
+                    "content": "At 30% health Stone Legion Goliath transforms info a Soultaint Effigy, afflicting all players with Soultaint, decreasing healing taken by 20% every 1 sec. This effect stacks up to 4 charges."
+                }
+            ]
+        },
+        {
+            "tag": "Intermission",
+            "spell": [
+                {
+                    "spellid": 332406,
+                    "title": "Anima Infusion",
+                    "content": "Infuses anima into the target. This anima can be transferred to Prince Renathal to restore 10% of his mana."
+                },
+                {
+                    "spellid": 339885,
+                    "title": "Anima Infection",
+                    "content": "Anima infects the target This anima can be transferred to Prince Renathal to restore 30% of his mana."
+                },
+                {
+                    "spellid": 342722,
+                    "title": "Stonewrath Exhaust",
+                    "content": "At 20% health a Stone Legion Goliath transforms into a statue spewing forth a cone of corrupted anima, inflicting 5 Shadow damage every 0.5 sec to all players in the area."
+                },
+                {
+                    "spellid": 332683,
+                    "title": "Shattering Blast",
+                    "content": "Prince Renathal shatters the target's Hardened Stone Form. The force of this blast triggers Shattering Shockwave, inflicting 18559 Shadow damage and knocking back all players."
+                }
+            ]
+        },
+        {
+            "tag": "stage Two: Grashaal's Blitz",
+            "spell": [
+                {
+                    "spellid": 329808,
+                    "title": "Hardened Stone Form",
+                    "content": "Grashaal's skin hardens, reducing all damage taken by 95% until removed."
+                },
+                {
+                    "spellid": 342425,
+                    "title": "Stone Fist",
+                    "content": "Grashaal smashes his target, knocking them back and inflicting 46192 Physical damage. Enemies hit with this ability take 100% increased damage from Stone Fist for 40 sec. This effect stacks with every Stone Fist, up to 5 strikes."
+                },
+                {
+                    "spellid": 344496,
+                    "title": "Reverberating Eruption",
+                    "content": "Grashaal sends a shockwave at an enemy, inflicting 26808 Nature damage and applies Reverberating Vulnerability to players within 8 yards. This leaves behind Unstable Ground and causes Echoing Annihilation at all other Unstable Ground locations."
+                },
+                {
+                    "spellid": 334498,
+                    "title": "Seismic Upheaval",
+                    "content": "General Grashaal causes eruptions at marked players every 2 sec for 5 sec, inflicting 32170 Nature damage to players within 5 yards."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 342256,
+                    "title": "Call Shadow Forces",
+                    "content": "Kaal summons 3 Stone Legion Skirmishers."
+                },
+                {
+                    "spellid": 342655,
+                    "title": "Volatile Anima Infusion",
+                    "content": "Infuses volatile anima into the target, inflicting 8258 Shadow damage every 2 sec for 20 sec. This anima can be transferred to Prince Renathal to restore 10% of his mana and triggering Volatile Anima Detonation."
+                },
+                {
+                    "spellid": 340037,
+                    "title": "Volatile Stone Shell",
+                    "content": "Upon reaching 20% health Stone Legion Commandos encase themselves in a stone shell, absorbing 196899 damage for 5 sec. Stone Shell Detonation is triggered if the shield is not broken before the channel ends."
+                },
+                {
+                    "spellid": 342698,
+                    "title": "Volatile Anima Infection",
+                    "content": "Volatile anima infects the target, inflicting 10311 Shadow damage every 2 sec for 20 sec. This anima can be transferred to Prince Renathal to restore 30% of his mana and triggering Volatile Anima Detonation."
+                }
+            ]
+        }
+    ],
+    "t27-10": [
+        {
+            "tag": "stage One: Sinners Be Cleansed",
+            "spell": [
+                {
+                    "spellid": 328936,
+                    "title": "Inevitable",
+                    "content": "Whenever Denathrius is unable to reach his target, he shifts through the shadows to their location and strikes them for 50% weapon damage."
+                },
+                {
+                    "spellid": 326699,
+                    "title": "Burden of Sin",
+                    "content": "All players gain 6 stacks of Burden of Sin at the start of the encounter. Every 2 sec, Burden of Sin inflicts 536 Shadow damage per stack."
+                },
+                {
+                    "spellid": 326707,
+                    "title": "Cleansing Pain",
+                    "content": "Denathrius strikes with immense cruelty, inflicting 18559 Shadow damage to players in a cone in front of him. Players with Burden of Sin lose 1 stack and summon an Echo of Sin.Players without Burden of Sin receive (3 * 100)% increased damage from this ability."
+                },
+                {
+                    "spellid": 326851,
+                    "title": "Blood Price",
+                    "content": "Denathrius torments players with Burden of Sin, rendering them unable to move or act for 3.5 sec.When this effect expires, each player is knocked away from Denathrius and explodes for 3547 Shadow damage to all players who have the same number of Burden of Sin stacks."
+                },
+                {
+                    "spellid": 327039,
+                    "title": "Feeding Time",
+                    "content": "Denathrius marks random players, then strikes 5 sec later. Inflicts 32995 Physical damage to players within 4 yds of each target and heals Denathrius for 150% of that amount."
+                },
+                {
+                    "spellid": 327796,
+                    "title": "Night Hunter",
+                    "content": "Denathrius creates images of himself that mark random players, then charge to them 6 sec later. Each image inflicts 8249 Physical damage and applies Touch of the Night to all players in their path.Upon reaching their target, they strike with Insatiable Hunger."
+                },
+                {
+                    "spellid": 327227,
+                    "title": "Command: Ravage",
+                    "content": "Upon reaching 100 energy, Denathrius commands Remornia to unleash stored Anima against players."
+                },
+                {
+                    "spellid": 327122,
+                    "title": "Ravage",
+                    "content": "After 6 sec, Remornia releases anima in a huge arc, inflicting 61865 Shadow damage to all players hit and filling the area with Desolation."
+                },
+                {
+                    "spellid": 327992,
+                    "title": "Desolation",
+                    "content": "Lingering Anima reduces all healing received by 100% and inflicts 6599 Shadow damage every 1 sec to players who stand within it."
+                }
+            ]
+        },
+        {
+            "tag": "Intermission: March of the Penitent",
+            "spell": [
+                {
+                    "spellid": 328276,
+                    "title": "March of the Penitent",
+                    "content": "Upon reaching 70% health, Denathrius draws all players to the center of the room, then casts them outward to the edges.Players affected by Burden of Sin have their movement speed slowed by 20% per stack and are unable to use abilities.Moving within 16 yds of Denathrius absolves players of their Burden of Sin."
+                }
+            ]
+        },
+        {
+            "tag": "stage Two: The Crimson Chorus",
+            "spell": [
+                {
+                    "spellid": 329906,
+                    "title": "Carnage",
+                    "content": "Remornia's attacks and abilities cause affected players to bleed for 1485 Physical damage every 1 sec for 15 sec. This effect stacks."
+                },
+                {
+                    "spellid": 329951,
+                    "title": "Impale",
+                    "content": "Remornia marks random players, then impales each of them a few seconds later. Inflicts 32995 Physical damage to all players in her path."
+                },
+                {
+                    "spellid": 336162,
+                    "title": "Crescendo",
+                    "content": "Upon death, release a spectacular volley of anima toward each player. Inflicts 12373 Shadow damage to players within 2.5 yds of the impact location and knocks them back."
+                },
+                {
+                    "spellid": 335873,
+                    "title": "Rancor",
+                    "content": "When Remornia hits a player with Impale or Massacre, she scorches the area beneath them with seething hatred for 1 min.Inflicts 3297 Shadow damage every 1 sec and increases damage taken by 100% for players standing within."
+                },
+                {
+                    "spellid": 329181,
+                    "title": "Wracking Pain",
+                    "content": "Denathrius strikes with immense power, inflicting 18559 Shadow damage to players and cabalists in the direction of his current target and increasing all damage they take by 50% for 24 sec."
+                },
+                {
+                    "spellid": 333932,
+                    "title": "Hand of Destruction",
+                    "content": "Denathrius pulls all players to his location and conjures an image of himself.After 6 sec, the image releases destructive energy that inflicts 120 Shadow damage to all players, reduced based on distance."
+                },
+                {
+                    "spellid": 330042,
+                    "title": "Command: Massacre",
+                    "content": "Upon reaching 100 energy, Denathrius commands Remornia to unleash a series of deadly attacks."
+                }
+            ]
+        },
+        {
+            "tag": "stage Three: Indignation",
+            "spell": [
+                {
+                    "spellid": 332585,
+                    "title": "Scorn",
+                    "content": "Inflicts 1237 Shadow damage every 1 sec for 15 sec. This effect stacks."
+                },
+                {
+                    "spellid": 332619,
+                    "title": "Shattering Pain",
+                    "content": "Denathrius performs a series of deadly attacks, slashing his target for 100% weapon damage 3 times over 3 sec. He then finishes with a devastating blow that inflicts 14848 Shadow damage to all players and knocks them back."
+                },
+                {
+                    "spellid": 332794,
+                    "title": "Fatal Finesse",
+                    "content": "Denathrius sets his sights on random players, then slashes each of them 5 sec later. Inflicts 28870 Shadow damage to players within 9 yds of the target, plus an additional 2472 Shadow damage every 1 sec for 10 sec."
+                },
+                {
+                    "spellid": 336008,
+                    "title": "Smoldering Ire",
+                    "content": "On Heroic difficulty and above, Fatal Finesse leaves behind a sphere of volatile anima that explodes after 10 sec, inflicting up to 49492 Shadow damage to all players.Every (7 / 10) sec, the sphere inflicts 3299 Shadow damage to players within 3 yds, reducing its final explosion damage by the same amount."
+                },
+                {
+                    "spellid": 332849,
+                    "title": "Reflection: Ravage",
+                    "content": "Upon reaching 100 energy, Denathrius creates an image of himself that mimics his most powerful abilities."
+                },
+                {
+                    "spellid": 333980,
+                    "title": "Reflection: Massacre",
+                    "content": "Upon reaching 100 energy, Denathrius creates an image of himself that mimics his most powerful abilities."
+                },
+                {
+                    "spellid": 344776,
+                    "title": "Vengeful Wail",
+                    "content": "A horrific wail that inflicts 20622 Shadow damage and interrupts spellcasting for 4 sec."
+                },
+                {
+                    "spellid": 338738,
+                    "title": "Through the Mirror",
+                    "content": "As Indignation is cast, the mirrors in the room begin to warp.What awaits players who pass through a mirror during this time is known only to Denathrius himself."
+                },
+                {
+                    "spellid": 333979,
+                    "title": "Sinister Reflection",
+                    "content": "Upon reaching 100 energy, Denathrius creates an image of himself that mimics his most powerful abilities."
+                }
+            ]
+        }
+    ],
+    "t28-1": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 346985,
+                    "title": "Overpower",
+                    "content": "The Tarragrue slams its target, inflicting 110166 Physical damage and stunning it for 4 sec. This strike applies Crushed Armor."
+                },
+                {
+                    "spellid": 346986,
+                    "title": "Crushed Armor",
+                    "content": "Increases Physical damage taken by 200% for 20 sec."
+                },
+                {
+                    "spellid": 347269,
+                    "title": "Chains of Eternity",
+                    "content": "The Tarragrue focuses its gaze upon a player. After 8 sec, the chains fly in their direction and stun the first target struck, inflicting 27541 Physical damage and pulling them in for an Annihilating Smash."
+                },
+                {
+                    "spellid": 347274,
+                    "title": "Annihilating Smash",
+                    "content": "The Tarragrue pulverizes to dust those caught by its chains, inflicting 550195 Physical damage and stunning them for 15 sec."
+                },
+                {
+                    "spellid": 347283,
+                    "title": "Predator's Howl",
+                    "content": "The Tarragrue howls, causing an aura of dread to form around players for 21 sec. This causes each target to radiate Unshakeable Dread to other players within 5 yds every 3 sec."
+                },
+                {
+                    "spellid": 347286,
+                    "title": "Unshakeable Dread",
+                    "content": "Causes the target to flee in fear for 8 sec."
+                },
+                {
+                    "spellid": 347679,
+                    "title": "Hungering Mist",
+                    "content": "The Tarragrue dissolves into the mists of Torghast, forming several images. These images erupt and inflict 110289 Shadow damage to all players within 25 yds."
+                },
+                {
+                    "spellid": 352368,
+                    "title": "Remnant of Forgotten Torments",
+                    "content": "The Jailer calls down the memory of a forgotten Torment, which assaults players until it is absorbed."
+                },
+                {
+                    "spellid": 352382,
+                    "title": "Remnant: Upper Reaches' Might",
+                    "content": "The Might of the Upper Reaches increases Physical damage done by the Jailer's forces by 50%. A player may lessen this effect by absorbing some of the Torment. This causes the player to take 10% increased Physical damage for 1.5 min."
+                },
+                {
+                    "spellid": 352389,
+                    "title": "Remnant: Mort'regar's Echoes",
+                    "content": "Mort'regar's Echoes increase Magic damage done by the Jailer's forces by 50%. A player may lessen this effect by absorbing some of the Torment. This causes the player to take 10% increased Magic damage for 1.5 min."
+                },
+                {
+                    "spellid": 352398,
+                    "title": "Remnant: Soulforge Heat",
+                    "content": "Soulforge Heat periodically inflicts 22042 Fire damage to all players. A player may lessen this effect by absorbing some of the Torment. This causes the player to take 8 Fire damage every 5 sec for 10 min."
+                },
+                {
+                    "spellid": 347668,
+                    "title": "Grasp of Death",
+                    "content": "The Jailer's grasp tightens around players, inflicting 13771 Shadow damage every 2 sec for 40 sec."
+                },
+                {
+                    "spellid": 347490,
+                    "title": "Fury of the Ages",
+                    "content": "Echoing rage fills the caster, increasing damage done by 25% and haste by 25% for 35 sec."
+                },
+                {
+                    "spellid": 347369,
+                    "title": "The Jailer's Gaze",
+                    "content": "At 10% health remaining, The Tarragrue calls out to the Jailer. This removes all Anima Powers from players and grants The Tarragrue an additional 500% damage done until it dies."
+                }
+            ]
+        }
+    ],
+    "t28-2": [
+        {
+            "tag": "stage One: His Gaze Upon You",
+            "spell": [
+                {
+                    "spellid": 350828,
+                    "title": "Deathlink",
+                    "content": "The Eye of the Jailer unleashes dark energies at its current target inflicting 110289 Physical damage, and increasing damage taken from Deathlink by 100% for 30 sec.In addition, the impact radiates a portion of the damage inflicted to all other players as Shadow damage."
+                },
+                {
+                    "spellid": 349979,
+                    "title": "Dragging Chains",
+                    "content": "The Stygian Abductor unleashes chains at their target and all players within 6.5 yards, inflicting 33050 Shadow damage divided evenly among all players struck.In addition, the Abductor begins to pull each hit target off the platform. The force of this effect is reduced by the number of players being chained. After struggling for 6 sec, the Abductor is pulled from the skies."
+                },
+                {
+                    "spellid": 348074,
+                    "title": "Assailing Lance",
+                    "content": "Once grounded, Stygian Abductors throw their lance at their current target, inflicting 49575 Physical damage and causes their target to bleed for 6885 Physical damage every 1 sec for 10 sec. This effect stacks."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Two: Double Vision",
+            "spell": [
+                {
+                    "spellid": 349028,
+                    "title": "Titanic Death Gaze",
+                    "content": "The Eye of the Jailer focuses its energy into a massive blast, inflicting 22033 Shadow damage to all players."
+                },
+                {
+                    "spellid": 350847,
+                    "title": "Desolation Beam",
+                    "content": "The Eye of the Jailer unleashes a beam of shadowy energy at a random player, inflicting 19279 Shadow damage before leaping to nearby allies for increased damage."
+                },
+                {
+                    "spellid": 350022,
+                    "title": "Fracture Soul",
+                    "content": "The Eye of the Jailer unleashes a surge of soul energy at the feet of random players, inflicting 13771 Shadow damage to all players within 7 yards of the impact. Players damaged by this effect have their soul split into three Fractured Souls."
+                },
+                {
+                    "spellid": 351825,
+                    "title": "Shared Suffering",
+                    "content": "When Deathseekers are within 55 yards of each other they cast Suffering every 3 sec."
+                },
+                {
+                    "spellid": 350713,
+                    "title": "Slothful Corruption",
+                    "content": "Fatigues random targets with 3305 Shadow damage every 1.5 sec. for 21 sec, &nbsp;reducing spell casting, ranged attack speed, and movement by 40%."
+                },
+                {
+                    "spellid": 351827,
+                    "title": "Spreading Misery",
+                    "content": "The Deathseeker Eye spreads misery into the souls of random targets, inflicting 4407 Shadow damage every 1 sec. for 5 sec. Upon removal, the misery spreads to the ground beneath the target, leaving a pool of Jailer's Misery."
+                }
+            ]
+        },
+        {
+            "tag": "stage Three: Immediate Extermination",
+            "spell": [
+                {
+                    "spellid": 348974,
+                    "title": "Immediate Extermination",
+                    "content": "The Eye of the Jailer attempts to wipe out all mortal life around it, permanently increasing its attack rate by 50%. In addition, the soul draining effects increase every 6 sec, inflicting a blast of 16525 Shadow damage and reducing healing received by players by 10% until the end of the encounter."
+                },
+                {
+                    "spellid": 351413,
+                    "title": "Annihilating Glare",
+                    "content": "The Eye of the Jailer channels a powerful beam of energy and sweeps its gaze across the platform, inflicting 165249 Shadow damage every 1 sec. and knocking back any targets who stand in it."
+                },
+                {
+                    "spellid": 350604,
+                    "title": "Hopeless Lethargy",
+                    "content": "The Eye of the Jailer corrupts a player with dark energy. All players within 8 yards of the target have their movement speed reduced by 50% and take 5508 Shadow damage every 1.5 sec."
+                },
+                {
+                    "spellid": 355232,
+                    "title": "Scorn and Ire",
+                    "content": "Ejected Deathseeker Eyes afflict players within 70 yards with applications of Scorn or Ire.When a player with Scorn collides with a player with Ire, it causes Scorned Annihilation."
+                }
+            ]
+        }
+    ],
+    "t28-3": [
+        {
+            "tag": "stage One: The Unending Voice",
+            "spell": [
+                {
+                    "spellid": 350542,
+                    "title": "Fragments of Destiny",
+                    "content": "Icy fragments form around random players, inflicting 3856 Frost damage every 1 sec. When dispelled, these fragments jump to the nearest player. If all fragments are on the same player, they are removed to form a Shard of Destiny."
+                },
+                {
+                    "spellid": 350555,
+                    "title": "Shard of Destiny",
+                    "content": "Standing within 10 yds of a Shard of Destiny inflicts 13771 Frost damage every 1 sec and reduces movement speed by 50%."
+                }
+            ]
+        },
+        {
+            "tag": "Kyra, The Unending",
+            "spell": [
+                {
+                    "spellid": 350202,
+                    "title": "Unending Strike",
+                    "content": "Kyra slashes out with her blade, causing the target to suffer 68854 Physical damage and take 10% increased damage for 25 sec. This effect stacks.In addition, Repeating Slash strikes all players, inflicting 6610 Physical damage for each application."
+                },
+                {
+                    "spellid": 350342,
+                    "title": "Formless Mass",
+                    "content": "Kyra calls forth a formless mass of Maw energy that only exists to devour life."
+                },
+                {
+                    "spellid": 350339,
+                    "title": "Siphon Vitality",
+                    "content": "The Formless Mass devours life from all players, inflicting 16525 Shadow damage to them and healing the Formless Mass for the same amount."
+                },
+                {
+                    "spellid": 350365,
+                    "title": "Wings of Rage",
+                    "content": "Upon reaching 100 energy, Kyra beats her wings for 7 sec, pulling all players to her location. Upon completion, Kyra lashes out and inflicts 66100 Physical damage to all players within 10 yds, stunning them for 10 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Signe, The Voice",
+            "spell": [
+                {
+                    "spellid": 350286,
+                    "title": "Song of Dissolution",
+                    "content": "Signe sings a shredding song that intensifies every 1.5 sec for 6 sec. This effect inflicts 2203 Shadow damage every 1 sec for 5 sec. This effect stacks."
+                },
+                {
+                    "spellid": 350385,
+                    "title": "Reverberating Refrain",
+                    "content": "Upon reaching 100 energy, Signe sings of the end for 7 sec, pushing all players away from her location. Upon completion, Signe crescendoes and inflicts 66100 Shadow damage to all players further than 10 yds, causing them to flee in fear for 6 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Call of the Val'kyr",
+            "spell": [
+                {
+                    "spellid": 350467,
+                    "title": "Call of the Val'kyr",
+                    "content": "Skyja calls for her fallen compatriots, drawing some of them forth to attack players."
+                },
+                {
+                    "spellid": 350031,
+                    "title": "Agatha's Eternal Blade",
+                    "content": "Agatha forms several images to slash out in straight lines through the area, inflicting 99149 Physical damage and knocking the target back."
+                },
+                {
+                    "spellid": 350184,
+                    "title": "Daschla's Mighty Impact",
+                    "content": "Dashcla takes aim at players with a mighty blast above, inflicting 33012 Shadow damage to targets within 20 yds of the impact locations."
+                },
+                {
+                    "spellid": 350158,
+                    "title": "Annhylde's Bright Aegis",
+                    "content": "Annhylde creates a shield of protective energy for her allies for 40 sec, reducing damage taken by 90%."
+                },
+                {
+                    "spellid": 350098,
+                    "title": "Aradne's Falling Strike",
+                    "content": "Aradne marks several locations for a falling slash. After 8 sec, she strikes those locations, inflicting 19279 Shadow damage. For each location, if no players are struck, she instead inflicts 38558 Shadow damage to all players."
+                },
+                {
+                    "spellid": 350109,
+                    "title": "Brynja's Mournful Dirge",
+                    "content": "Brynja marks players with a death song, inflicting 3301 Shadow damage every 1 sec for 6 sec. Upon expiration, the song inflicts 35817 Shadow damage to other players within 5 yds."
+                },
+                {
+                    "spellid": 350039,
+                    "title": "Arthura's Crushing Gaze",
+                    "content": "Arthura focuses the chill of Icecrown upon a player. After 8 sec, she slams the ground and inflicts 220332 Frost damage divided evenly between all players within 10 yds."
+                }
+            ]
+        },
+        {
+            "tag": "stage Two: The First of the Mawsworn",
+            "spell": [
+                {
+                    "spellid": 350475,
+                    "title": "Pierce Soul",
+                    "content": "Skyja pierces the soul of her target, inflicting 82624 Physical damage. This effect reduces the target's movement speed by 10% and healing received by 10% for 30 sec. This effect stacks."
+                },
+                {
+                    "spellid": 355294,
+                    "title": "Resentment",
+                    "content": "Skyja releases negative emotions, inflicting 4952 Shadow damage to all players every 1 sec for 12 sec."
+                },
+                {
+                    "spellid": 350482,
+                    "title": "Link Essence",
+                    "content": "Skyja links the souls of players together. If any of the players take damage, they radiate 60% of that damage split among all other linked players."
+                },
+                {
+                    "spellid": 350687,
+                    "title": "Word of Recall",
+                    "content": "Skyja instantly recalls her previous commands for Call of the Val'kyr."
+                }
+            ]
+        }
+    ],
+    "t28-4": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 350676,
+                    "title": "Orb of Torment",
+                    "content": ""
+                },
+                {
+                    "spellid": 350073,
+                    "title": "Torment",
+                    "content": "The Orb of Torment corrupts several players, inflicting 8262 Shadow damage every 3 sec for 15 sec."
+                },
+                {
+                    "spellid": 350388,
+                    "title": "Sorrowful Procession",
+                    "content": "Once slain, players can pick up the Orb of Torment and carry it to the edge of the platform to throw it into the abyss.While holding the Orb of Torment your soul is weakend, inflicting 5508 Shadow damage every 3 sec and reducing movement speed by 50%."
+                },
+                {
+                    "spellid": 350469,
+                    "title": "Malevolence",
+                    "content": "The Remnant of Ner'zhul afflicts random targets with Malevolence for 21 sec. When this effect is removed all players are knocked back from the victim's location and take 11017 Shadow damage."
+                },
+                {
+                    "spellid": 350489,
+                    "title": "Lingering Malevolence",
+                    "content": "Standing in Lingering Malevolence inflicts 40 Shadow damage every 1 sec."
+                },
+                {
+                    "spellid": 349890,
+                    "title": "Suffering",
+                    "content": "At 100 energy, the Remnant of Ner'zhul unleashes a blast of energy at their current target, inflicting 38564 Shadow damage to all players caught in a line and increasing their damage taken from Suffering by 500% for 30 sec.Orbs of Torment caught in the effect lose the effect of Eternal Torment and become vulnerable."
+                },
+                {
+                    "spellid": 355123,
+                    "title": "Grasp of Malice",
+                    "content": "The Remnant of Ner'zhul unfurls ethereal fingers that erupt, inflicting 27541 Shadow damage to all players caught in the effect, knocking them back."
+                },
+                {
+                    "spellid": 351066,
+                    "title": "Shatter",
+                    "content": "At 80%, 60%, and 30% health remaining a piece of the armor restraining the Remnant of Ner'zhul is destroyed, unleashing a wave of energy that inflicts 33062 Shadow damage to all players."
+                }
+            ]
+        }
+    ],
+    "t28-5": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 350217,
+                    "title": "Torment",
+                    "content": "Soulrender Dormazain torments Garrosh, unleashing waves of Anima that inflict 60594 Shadow damage and an additional 13771 Shadow damage every 2 sec for 6 sec to players caught in their wake. This effect stacks."
+                },
+                {
+                    "spellid": 349985,
+                    "title": "Tormented Eruptions",
+                    "content": "Soulrender Dormazain introduces Garrosh to a new level of torment, causing multiple waves of Anima to surge forth from him at once, inflicting 60594 Shadow damage and an additional 13771 Shadow damage every 2 sec for 6 sec to players caught in their wake. This effect stacks."
+                },
+                {
+                    "spellid": 350647,
+                    "title": "Brand of Torment",
+                    "content": "Soulrender Dormazain brands players, causing them to inflict Tormented to all nearby players and Mawsworn."
+                },
+                {
+                    "spellid": 350422,
+                    "title": "Ruinblade",
+                    "content": "Dormazain plunges Ruinblade into his current target, inflicting 124383 Physical damage and increasing Physical damage taken by 100% for 40 sec. This effect stacks."
+                },
+                {
+                    "spellid": 350615,
+                    "title": "Call Mawsworn",
+                    "content": "Mawsworn Agonizers attempt to advance towards Garrosh to continue the task of tormenting him. Upon reaching Garrosh or 100 energy, the become suffused with [Defiance], becoming immune to crowd control effects and dealing increased damage."
+                },
+                {
+                    "spellid": 351779,
+                    "title": "Agonizing Nova",
+                    "content": "Mawsworn Agonizers billow waves of agony, inflicting 11029 Shadow damage and reducing the movement speed of all players by 20% for 6 sec. This effect stacks."
+                },
+                {
+                    "spellid": 350650,
+                    "title": "Defiance",
+                    "content": "Garrosh's anima overwhelms the Mawsworn Agonizer, causing them to become immune to all forms of crowd control and increasing all damage done by 200%."
+                },
+                {
+                    "spellid": 350411,
+                    "title": "Hellscream",
+                    "content": "Garrosh unleashes a hellacious roar inflicting 100 Physical damage to all players every 1 sec until interrupted.Lok'tar ogar!"
+                },
+                {
+                    "spellid": 354231,
+                    "title": "Soul Manacles",
+                    "content": "Snapping a Warmonger Shackle binds the player's soul to it, preventing them from interacting with Warmonger Shackles. While under this effect the target suffers 2755 Shadow damage every 3 sec."
+                },
+                {
+                    "spellid": 351229,
+                    "title": "Rendered Soul",
+                    "content": "Soulrender Dormazain's torments pierce Garrosh's soul, causing fragments to periodically cascade into the arena that inflct 44066 Shadow damage to all players within 5 yds of the impact."
+                }
+            ]
+        }
+    ],
+    "t28-6": [
+        {
+            "tag": "General",
+            "spell": [
+                {
+                    "spellid": 348508,
+                    "title": "Reverberating Hammer",
+                    "content": "The Painsmith hurls his hammer at his current target, inflicting 115674 Physical damage applying Blackened Armor. Flames erupt from the impact and inflict 82624 Fire damage to all other players. Players farther from the target take less damage.Spikes ripple outwards from the target's location."
+                },
+                {
+                    "spellid": 355568,
+                    "title": "Cruciform Axe",
+                    "content": "The Painsmith hurls his axe at his current target, inflicting 99149 Physical damage and applying Blackened Armor. Flames erupt from the impact and inflict 66100 Fire damage to all other players. Players farther from the target take less damage.Spikes erupt in four directions from the target's location."
+                },
+                {
+                    "spellid": 355778,
+                    "title": "Dualblade Scythe",
+                    "content": "The Painsmith hurls his scythe at his current target, inflicting 132199 Physical damage and applying Blackened Armor. Flames erupt from the target and inflict 99149 Fire damage to all other players. Players farther from the target take less damage.Spikes erupt in four directions and then ripple outwards from the target's location."
+                },
+                {
+                    "spellid": 355786,
+                    "title": "Blackened Armor",
+                    "content": "Inflicts 8253 Fire damage every 1 sec and increases Physical damage taken by 200% for 14 sec. This effect stacks."
+                },
+                {
+                    "spellid": 352052,
+                    "title": "Spiked Balls",
+                    "content": "The Painsmith drops spiked balls that roll across the chamber floor, inflicting 220332 Physical damage to players caught in their path and stunning them for 8 sec."
+                },
+                {
+                    "spellid": 348456,
+                    "title": "Flameclasp Trap",
+                    "content": "The Painsmith chooses up to 4 victims and after 8 sec activates a burning trap at their location.Traps explode in a Flameclasp Eruption if stepped on, pierced by spikes, or crushed by spiked balls."
+                },
+                {
+                    "spellid": 355505,
+                    "title": "Shadowsteel Chains",
+                    "content": "The Painsmith shackles targets with agonizing chains, inflicting 3746 Fire damage every 1 sec for 21 sec.Shackled players inflict [4407 Fire damage every 1 sec. to allies within 4 yards.][22033 Physical damage to allies within 4 yards and knock them away.]"
+                },
+                {
+                    "spellid": 355534,
+                    "title": "Shadowsteel Embers",
+                    "content": "The Painsmith's work unleashes blazing embers that inflict 44066 Fire damage to players within 3.5 yds of the impact location."
+                },
+                {
+                    "spellid": 355536,
+                    "title": "Summon Shadowsteel Horror",
+                    "content": "The Painsmith's work unleashes blazing embers that inflict 44066 Fire damage to players within 3.5 yds of the impact location.The impact creates a Shadowsteel Horror."
+                },
+                {
+                    "spellid": 357735,
+                    "title": "Final Scream",
+                    "content": "The Shadowsteel Horror extinguishes itself with a grinding screech that inflicts 110166 Fire damage to all players."
+                }
+            ]
+        }
+    ],
+    "t28-7": [
+        {
+            "tag": "Energy Cores",
+            "spell": [
+                {
+                    "spellid": 352385,
+                    "title": "Energizing Link",
+                    "content": "While near an Energy Core the Guardian will link to it, granting it 5 energy every 1 sec."
+                },
+                {
+                    "spellid": 356093,
+                    "title": "Energy Absorption",
+                    "content": "Energy Cores begin the encounter drained, striking an Energy Core with Threat Neutralization restores 5 energy."
+                },
+                {
+                    "spellid": 350455,
+                    "title": "Unstable Energy",
+                    "content": "While linked to The Guardian, Energy Cores emit pulses of Unstable Energy inflicting 42414 Arcane damage to all players every 1 sec."
+                },
+                {
+                    "spellid": 352394,
+                    "title": "Radiant Energy",
+                    "content": "While active, the Energy Core emits a field of Radiant Energy. Players standing in the area take 80% reduced damage from Unstable Energy."
+                },
+                {
+                    "spellid": 352589,
+                    "title": "Meltdown",
+                    "content": "The core violently erupts, inflicting 77027 Arcane damage to players within 15 yards and 29745 Arcane damage to players further than 15 yards."
+                }
+            ]
+        },
+        {
+            "tag": "The Guardian",
+            "spell": [
+                {
+                    "spellid": 352538,
+                    "title": "Purging Protocol",
+                    "content": "Upon reaching 0 energy the Guardian beings to repeatedly unleash pulses of energy that inflict 30296 Arcane damage to all players until it can link with an Energy Core. &nbsp;Each subsequent cast of Purging Protocol increases its damage by 100%.In addition, all Sentries hit with Purging Protocol are destroyed."
+                },
+                {
+                    "spellid": 350735,
+                    "title": "Elimination Pattern",
+                    "content": "The Guardian executes a combination of attacks on its primary target."
+                },
+                {
+                    "spellid": 355352,
+                    "title": "Obliterate",
+                    "content": "The Guardian decimates its primary target, inflicting 220332 Physical damage and an additional 385581 Arcane damage split evenly among all players within 6 yards of the primary target.In addition, all targets hit by the effect take 5000% increased damage from Obliterate for 12 sec."
+                },
+                {
+                    "spellid": 350732,
+                    "title": "Sunder",
+                    "content": "The Guardian slams the ground at its primary target's location, inflicting 165434 Physical damage to players within 6 yards of the impact and increases damage taken from Sunder by 300% for 20 sec."
+                },
+                {
+                    "spellid": 358301,
+                    "title": "Energy Depletion",
+                    "content": "Failing to hit at least 4 players with Obliterate depletes 20 energy from the Guardian."
+                },
+                {
+                    "spellid": 352833,
+                    "title": "Disintegration",
+                    "content": "The Guardian disintegrates players in a line in front of it, inflicting 38514 Arcane damage. &nbsp;In addition, players struck with this effect are stunned and take an additional 11017 Arcane damage every 1 sec for 6 sec."
+                },
+                {
+                    "spellid": 352660,
+                    "title": "Form Sentry",
+                    "content": "The Guardian originates a servitor that orbits the caster."
+                },
+                {
+                    "spellid": 347359,
+                    "title": "Suppression Field",
+                    "content": "The Sentry maintains a Suppression Field beneath it that inflicts 3305 Arcane damage every 2 sec and prevents players from being able to attack or cast spells while in the area."
+                },
+                {
+                    "spellid": 350496,
+                    "title": "Threat Neutralization",
+                    "content": "The Guardian locks on to multiple players. &nbsp;After 4 sec, the Guardian unleashes a barrage at each target's location, inflicting 27541 Arcane damage to all players within 10 yards of the impact."
+                }
+            ]
+        }
+    ],
+    "t28-8": [
+        {
+            "tag": "Stage One: Scrying Fate",
+            "spell": [
+                {
+                    "spellid": 351680,
+                    "title": "Invoke Destiny",
+                    "content": "Fatescribe Roh-Kalo invokes the current target's inevitable end.After 8 sec the target erupts, forming a Shade of Destiny and inflicting up to 60591 Shadow damage to all players. Players farther from this eruption suffer less damage."
+                },
+                {
+                    "spellid": 353432,
+                    "title": "Burden of Destiny",
+                    "content": "A Shade of Destiny fixates upon its target, increasing that target's damage taken by 75% while the shade lives.If the shade reaches its target or reaches full energy, it erupts, striking the raid with an Overwhelming Burden."
+                },
+                {
+                    "spellid": 353398,
+                    "title": "Anomalous Blast",
+                    "content": "Blasts a nearby enemy for 18177 Shadow damage."
+                },
+                {
+                    "spellid": 353603,
+                    "title": "Diviner's Probe",
+                    "content": "Each time Fatescribe Roh-Kalo attacks a new target, he eagerly probes them for weakness, gaining several stacks of Diviner's Probe.The Fatescribe spends stacks to inflict 46821 Shadow damage to the current target."
+                },
+                {
+                    "spellid": 353931,
+                    "title": "Twist Fate",
+                    "content": "Twists the Threads of Fate attached to several players, inflicting 13771 Shadow damage every 2 sec for 6 sec."
+                },
+                {
+                    "spellid": 350421,
+                    "title": "Fated Conjunction",
+                    "content": "Fatescribe Roh-Kalo triggers a Fated Conjunction, causing several beams of energy to erupt from around the space after a 6 second delay. The beams inflict 74362 Shadow damage to targets caught in the blast, and increasing the damage taken from Fated Conjunction by 50% for 1 min."
+                },
+                {
+                    "spellid": 350568,
+                    "title": "Call of Eternity",
+                    "content": "Inflicts 13771 Shadow damage every 2 sec for 8 sec.The target explodes on expiration, striking all other players within 20 yards for 66100 Shadow damage. The explosion leaves behind an Echo of Eternity."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Two: Defying Destiny",
+            "spell": [
+                {
+                    "spellid": 357739,
+                    "title": "Realign Fate",
+                    "content": "Fatescribe Roh-Kalo rearranges the Loom of Fates, authoring for himself a glorious new fate. While he is doing so, his damage taken is reduced by 99%.Several players are revealed as having Runic Affinity for the Loom's current configuration, and are capable of manipulating the position of the Loom's rings.After 40 sec, if the rings are not returned to their target positions, Fatescribe Roh-Kalo invokes the Darkest Destiny, killing all players."
+                },
+                {
+                    "spellid": 357144,
+                    "title": "Despair",
+                    "content": "The Fatespawn Monstrosity unleashes a wave Despair upon all players within 25 yards, inflicting 13771 Shadow damage every 2 sec and reducing their movement speed by 20% for 6 sec."
+                },
+                {
+                    "spellid": 353122,
+                    "title": "Darkest Destiny",
+                    "content": "With fate realigned in his favor, Fatescribe Roh-Kalo invokes the darkest possible destiny, ensuring swift and unceremonious deaths for all players."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Three: Fated Terminus",
+            "spell": [
+                {
+                    "spellid": 353195,
+                    "title": "Extemporaneous Fate",
+                    "content": "Fatescribe Roh-Kalo hastily adjusts the Loom of Fates in a desperate attempt to alter his own destiny.If any rune remains out of place after 30 sec, the Fatescribe invokes Darkest Destiny."
+                },
+                {
+                    "spellid": 354367,
+                    "title": "Grim Portent",
+                    "content": "Fatescribe Roh-Kalo binds several players to runes upon the Loom of Fates.After 9 sec, if a bound player is touching their assigned rune, the Fatescribe inflicts 13771 Shadow damage to all players within the rune.If a rune expires without its bound player inside, the Fatescribe inflicts 74362 Shadow damage to all players."
+                },
+                {
+                    "spellid": 354964,
+                    "title": "Runic Affinity",
+                    "content": "Fatescribe Roh-Kalo's machinations conjoin several players to the Loom of Fates' current configuration, allowing them to manipulate the rings."
+                }
+            ]
+        }
+    ],
+    "t28-9": [
+        {
+            "tag": "Stage One: Chains and Ice",
+            "spell": [
+                {
+                    "spellid": 354198,
+                    "title": "Howling Blizzard",
+                    "content": "When depleted of mana, Kel'Thuzad summons a blizzard that creates ice patches. Standing in an ice patch inflicts 18471 Frost damage every 1 sec.These patches grow over 20 sec before exploding, inflicting 66100 Frost damage to enemies within 8 yards."
+                },
+                {
+                    "spellid": 352530,
+                    "title": "Dark Evocation",
+                    "content": "Kel'Thuzad revives Frostbound Devoted to stalk his enemies.In addition, all slain players are resurrected and become thralls of Kel'Thuzad until they are slain once more."
+                },
+                {
+                    "spellid": 355389,
+                    "title": "Relentless Haunt",
+                    "content": "Fixates on their prey."
+                },
+                {
+                    "spellid": 348071,
+                    "title": "Soul Fracture",
+                    "content": "Kel'Thuzad flays his current target, inflicting 44016 Shadow damage and knocking the player away.In addition, the target's soul is sundered into 5 Soul Shards, applying stacks of Soul Exhaustion for each shard created."
+                },
+                {
+                    "spellid": 348978,
+                    "title": "Soul Exhaustion",
+                    "content": "Soul Shards bind the essence of the target, increasing Physical damage taken by 500% for 1 min.If this effect is not removed before the duration expires the target is slain outright."
+                },
+                {
+                    "spellid": 348428,
+                    "title": "Piercing Wail",
+                    "content": "The shard screams, inflicting 16525 Shadow damage to all players."
+                },
+                {
+                    "spellid": 346459,
+                    "title": "Glacial Wrath",
+                    "content": "Kel'Thuzad summons Glacial Spikes at player destinations, inflicting 38558 Frost damage to players within 6 yards and knocking them back."
+                },
+                {
+                    "spellid": 346530,
+                    "title": "Frozen Destruction",
+                    "content": "The spike erupts, inflicting 13220 Frost damage to all players and an additional 2203 Frost damage every 1 sec for 8 sec. This effect stacks. &nbsp;"
+                },
+                {
+                    "spellid": 347292,
+                    "title": "Oblivion's Echo",
+                    "content": "Kel'Thuzad shrouds random players with necrotic energy for 6 sec, causing them to silence and pacify all players and Soul Shards within 10 yards.Upon expiration, the wearer drops a field of silence at their destination that summons a Frostbound Devoted after 6 sec."
+                },
+                {
+                    "spellid": 348760,
+                    "title": "Frost Blast",
+                    "content": "Kel'Thuzad hurls a chunk of ice at an enemy, inflicting 206561 Frost damage divided evenly among players within 8 yards and inflicts 3856 Frost damage every 1 sec for 8 sec. In addition, this effect applies Frozen Binds."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Two: The Phylactery Opens",
+            "spell": [
+                {
+                    "spellid": 354289,
+                    "title": "Sinister Miasma",
+                    "content": "Continually inflicts 826 Shadow damage every 2 sec as long as a player is within the phylactery.This effect stacks."
+                },
+                {
+                    "spellid": 352051,
+                    "title": "Necrotic Surge",
+                    "content": "Each time Kel'Thuzad is revived by the phylactery, necrotic power surges through him increasing his damage done by 5%.Additionally, each application also increases the number of players targeted by Oblivion's Echo and Glacial Wrath."
+                },
+                {
+                    "spellid": 352293,
+                    "title": "Vengeful Destruction",
+                    "content": "Kel'Thuzad unleashes a wave of death, inflicting 440664 Shadow damage to all players.This cast is interrupted if the Remnant of Kel'Thuzad is killed or loses 40% of its max health."
+                },
+                {
+                    "spellid": 355137,
+                    "title": "Shadow Pool",
+                    "content": "Shadow Pools inflict 25081 Shadow damage every 1 sec while standing within it."
+                },
+                {
+                    "spellid": 352379,
+                    "title": "Freezing Blast",
+                    "content": "The Remnant of Kel'Thuzad unleashes a wave of ice over players in a line, inflicting 110166 Frost damage and rooting them for 4 sec."
+                },
+                {
+                    "spellid": 355055,
+                    "title": "Glacial Winds",
+                    "content": "When the Remnant of Kel'Thuzad reaches 20% health remaining it begins unleashing tornadoes that radiate out from the caster, inflicting 1284 Frost Damage and rooting anyone they touch for 4 sec."
+                },
+                {
+                    "spellid": 355127,
+                    "title": "Foul Winds",
+                    "content": "The Remnant of Kel'Thuzad summons foul winds to push players towards the edge of the phylactery."
+                },
+                {
+                    "spellid": 352355,
+                    "title": "Undying Wrath",
+                    "content": "The Remnant of Kel'Thuzad becomes immune to damage and unleashes a barrage of necrotic energy, inflicting 66100 Shadow damage to all players within the phylactery and knocking them back."
+                },
+                {
+                    "spellid": 352141,
+                    "title": "Banshee's Cry",
+                    "content": "Every 1 sec the spirit launches missiles at random players that inflicts 36019 Shadow damage.In addition, each successful cast increases the damage of the next Banshee's Cry by 25%."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Three: The Final Stand",
+            "spell": [
+                {
+                    "spellid": 354639,
+                    "title": "Deep Freeze",
+                    "content": "Kel'Thuzad chills the air causing ice patches to continually form on the ground and last for the remainder of the encounter. Standing within these ice patches inflicts 18471 Frost damage every 1 sec."
+                },
+                {
+                    "spellid": 352348,
+                    "title": "Onslaught of the Damned",
+                    "content": "Kel'Thuzad calls the armies of the damned to his aid.In addition, slain players are also added to these ranks, now in the thrall of Kel'Thuzad until they are slain once more."
+                }
+            ]
+        }
+    ],
+    "t28-10": [
+        {
+            "tag": "Stage One: A Cycle of Hatred",
+            "spell": [
+                {
+                    "spellid": 347504,
+                    "title": "Windrunner",
+                    "content": "Sylvanas Windrunner is by far one of the most talented fighters from Azeroth, and can execute multiple abilities in quick succession, rapidly changing position to suit her combat needs. While under the effects of Windrunner, spells and abilities strike Sylvanas where she cast Windrunner."
+                },
+                {
+                    "spellid": 347807,
+                    "title": "Barbed Arrow",
+                    "content": "Withering Fire leaves a Barbed Arrow in targets, bleeding for 4407 Physical damage every 3 sec. This effect stacks."
+                },
+                {
+                    "spellid": 356377,
+                    "title": "Desecrating Shot",
+                    "content": "Sylvanas looses a cavalcade of infused arrows, erupting for 33137 Shadow damage to players within the area of effect."
+                },
+                {
+                    "spellid": 347670,
+                    "title": "Shadow Dagger",
+                    "content": "Sylvanas heaves corrupted blades, inflicting 6610 Shadow damage every 1 sec for 9 sec to all struck targets."
+                },
+                {
+                    "spellid": 349458,
+                    "title": "Domination Chains",
+                    "content": "Sylvanas fires several salvos of Domination Arrows at targeted locations, inflicting 41265 Shadow damage to enemies within 5 yards, then chains players to those that remain.These chains pull players inflicting 2478 Shadow damage every second and increasing the speed at which players are pulled by 35% until defeated. This effect stacks and removes Barbed Arrow from targets."
+                },
+                {
+                    "spellid": 347704,
+                    "title": "Veil of Darkness",
+                    "content": "Sylvanas enshrouds an area in fog, inflicting 27542 Shadow damage and afflicting enemies within a deathly cloud, absorbing 32871 healing and inflicting 826 Shadow damage every half-second.(100 - 75)% of all healing bypasses this absorb.[This effect begins at 6 stacks, and every second attempts to transfer 1 stack to a nearby player within 5 yards.]"
+                },
+                {
+                    "spellid": 347609,
+                    "title": "Wailing Arrow",
+                    "content": "Sylvanas launches a terror-infused arrow at a player, inflicting 33050 Shadow damage and additionally inflicting up to 77116 Shadow damage to all other players, decreasing in damage based on distance from the point of impact."
+                },
+                {
+                    "spellid": 352650,
+                    "title": "Ranger's Heartseeker",
+                    "content": "Sylvanas gains a stack of Ranger's Heartseeker every 5 sec. Upon reaching 3 stacks Sylvanas can replace a Ranger Shot with a triple burst of Ranger's Heartseeker into her target. Each arrow inflicts 33188 Physical damage and 22447 Shadow damage, applying Banshee's Mark."
+                },
+                {
+                    "spellid": 347607,
+                    "title": "Banshee's Mark",
+                    "content": "Inflicts 3305 Shadow damage every second for 18 sec. This effect stacks."
+                }
+            ]
+        },
+        {
+            "tag": "Intermission: A Monument to our Suffering",
+            "spell": [
+                {
+                    "spellid": 353417,
+                    "title": "Rive",
+                    "content": "Sylvanas rips fragments of Torghast, sending them in a targeted direction inflicting 330117 Physical damage to all players in the chunk's path."
+                },
+                {
+                    "spellid": 348109,
+                    "title": "Banshee Wail",
+                    "content": "Sylvanas lets forth a shrill scream, inflicting damage based on each targeted player's health, starting at &nbsp;[27635 * (30 / 100)] Shadow damage at full health, increasing to 27635 Shadow damage, to players within 4 yards of each targeted player, interrupting for 3 sec."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Two: The Banshee Queen",
+            "spell": [
+                {
+                    "spellid": 350857,
+                    "title": "Banshee Shroud",
+                    "content": "Enshrouds Sylvanas in darkness, reducing damage taken by 99%."
+                },
+                {
+                    "spellid": 355540,
+                    "title": "Ruin",
+                    "content": "Sylvanas lays waste to the area, inflicting 275415 Shadow damage to all players. This damage cannot be mitigated or avoided."
+                },
+                {
+                    "spellid": 352271,
+                    "title": "Haunting Wave",
+                    "content": "Sylvanas releases rolling energy, pushing away enemies upon contact with the waves and inflicts 2754 Shadow damage every half-second for 10 sec. This effect stacks."
+                },
+                {
+                    "spellid": 351180,
+                    "title": "Lashing Wound",
+                    "content": "Inflicts 8262 Physical damage to a player every second for 9 sec. This effect stacks, and cannot be dodged, blocked, or parried, and cannot miss."
+                },
+                {
+                    "spellid": 351117,
+                    "title": "Crushing Dread",
+                    "content": "The Souljudge sows immense anxiety in afflicted targets, erupting for 16525 Shadow damage to players within 5 yards every 2 sec. for 9 sec. This effect increases stacks every period, increasing Crushing Dread damage by 10%.Upon removal, this effect transfers to another player until the Souljudge is defeated."
+                },
+                {
+                    "spellid": 351353,
+                    "title": "Summon Decrepit Orbs",
+                    "content": "The Summoner creates 4 Decrepit Orbs."
+                },
+                {
+                    "spellid": 351939,
+                    "title": "Curse of Lethargy",
+                    "content": "The Summoner curses afflicted targets, inflicting 16519 Shadow damage plus an additional 4407 Shadow damage every 1 sec and reducing movement speed by 40% for 4 sec. Each cast grants Lethargic Focus, increasing this curse's duration by 1 seconds."
+                },
+                {
+                    "spellid": 351672,
+                    "title": "Fury",
+                    "content": "The Goliath blindly rages at a target, increasing damage done by 6% and melee attack speed by 5% when melee attacking the same enemy. This effect stacks."
+                }
+            ]
+        },
+        {
+            "tag": "Stage Three: The Freedom of Choice",
+            "spell": [
+                {
+                    "spellid": 353929,
+                    "title": "Banshee's Bane",
+                    "content": "Sylvanas burdens targets with a ravenous affliction, inflicting 2203 Shadow damage every second. This effect stacks. Upon removal, this coalesces into a pool of shadow on the ground. Any player touching the pool gains Banshee's Bane, consuming the pool."
+                },
+                {
+                    "spellid": 354011,
+                    "title": "Bane Arrows",
+                    "content": "Sylvanas jettisons a volley of arrows, inflicting 11017 Shadow damage to players within 5 yards at the impact location, creating a pool of Banshee's Bane."
+                },
+                {
+                    "spellid": 353965,
+                    "title": "Banshee's Heartseeker",
+                    "content": "Sylvanas gains a stack of Banshee's Heartseeker every 7 sec. Upon reaching 3 stacks Sylvanas can replace a Ranger Shot with a triple burst of Banshee's Heartseeker into her target. Each arrow inflicts 40762 Physical damage and 13000 Shadow damage, applying Banshee's Bane."
+                },
+                {
+                    "spellid": 354068,
+                    "title": "Banshee's Fury",
+                    "content": "Sylvanas erupts with Banshee magic, inflicting 11705 Shadow damage to all players every second for 4 sec. After 4 sec, Banshee's Bane explodes from players inflicting an additional 27542 Shadow damage to all players per stack of Banshee's Bane."
+                },
+                {
+                    "spellid": 353952,
+                    "title": "Banshee Scream",
+                    "content": "Sylvanas lets forth a shrill scream, inflicting damage based on each targeted player's health, starting at &nbsp;[30261 * (30 / 100)] Shadow damage at full health, increasing to 30261 Shadow damage, to players within 4 yards of each targeted player, silencing for 1 sec."
+                },
+                {
+                    "spellid": 354147,
+                    "title": "Raze",
+                    "content": "Sylvanas unloads a Death-empowered arrow, annihilating the impact location inflicting 33050 Shadow damage to targets within 30 yards and additionally desecrates the area, inflicting 11017 Shadow damage every 0.5 sec.This additionally destroys the Invigorating Field connections to and from the contaminated area."
+                }
+            ]
+        },
+        {
+            "tag": "Mythic",
+            "spell": [
+                {
+                    "spellid": 358704,
+                    "title": "Black Arrow",
+                    "content": "Sylvanas launches a terror-infused arrow at a player, inflicting 22033 Shadow damage and additionally inflicting up to 55083 Shadow damage to all other players, decreasing in damage based on distance from the point of impact.Upon impact, summons 2 Dark Sentinels nearby. Each time Black Arrow completes, Sylvanas gains Black Arrow, increasing the number of Dark Sentinels summoned. This effect stacks."
+                },
+                {
+                    "spellid": 358711,
+                    "title": "Rage",
+                    "content": "The Dark Sentinel enters into a blind fury, fixating on a target and refusing to attack any others. Every 4.5 sec. the Dark Sentinel gains additional Rage, increasing damage done by 10% and preventing them from being slowed below 20% of normal speed. This effect stacks."
+                },
+                {
+                    "spellid": 356021,
+                    "title": "Dark Communion",
+                    "content": "The Summoner enters a deathly trance, summoning 3"
+                },
+                {
+                    "spellid": 351591,
+                    "title": "Filth",
+                    "content": "The Colossus releases a shadowy barrage in a targeted direction, inflicting 38559 Shadowstrike damage and increasing Filth damage taken by 30% for 30 sec to players in a frontal cone. &nbsp;This effect stacks, and cannot be dodged, blocked, or parried, and cannot miss."
+                },
+                {
+                    "spellid": 351562,
+                    "title": "Expulsion",
+                    "content": "The Colossus focuses anima into afflicted players every 3 sec for 4.5 sec. This anima explodes after 3 sec, inflicting 88133 Shadow damage, divided amongst players within 8 yards."
+                },
+                {
+                    "spellid": 358185,
+                    "title": "Banshee's Weapons",
+                    "content": "Sylvanas gains a stack of Banshee's Weapons every 5 sec. Upon reaching 3 stacks Sylvanas can replace a Ranger Shot with Banshee's Heartseeker. Upon reaching 4 stacks Sylvanas can replace a Ranger Strike with Banshee's Blades."
+                },
+                {
+                    "spellid": 358181,
+                    "title": "Banshee's Blades",
+                    "content": "Executes a quadruple series of strikes at a player, each inflicting 6886 Physical damage and 17902 Shadow damage, applying Banshee's Bane."
+                },
+                {
+                    "spellid": 358434,
+                    "title": "Death Knives",
+                    "content": "Sylvanas places a mark on players inflicting 8262 Shadow damage every second for 4 sec.When removed, Death-touched blades fling out from the marked players in targeted directions, inflicting 19279 Shadow damage every second for 9 sec to players within 3 yards of any struck target."
+                },
+                {
+                    "spellid": 358588,
+                    "title": "Merciless",
+                    "content": "The Jailer's assault is endless. Periodically, fragments of the battery rain down upon the nearby platforms, inflicting 33050 Shadow damage to players within 0 yards of the point of impact. If no players are within 0 yards, the damage increases to 82624 Shadow damage to all players within 38 yards from the impact location."
+                }
+            ]
+        }
+    ]
+}

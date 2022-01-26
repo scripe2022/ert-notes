@@ -1,7 +1,9 @@
-export default async(req, res) => {
-    console.log(req.params);
+import spellListCN from '~/assets/json/spellInfo_cn.json'
+import spellListEN from '~/assets/json/spellInfo_en.json'
 
-    return {
-        data: 1,
-    }
+export default async(req, res) => {
+    const params = req.query;
+    const locale = params.locale;
+
+    return locale=='cn' ? spellListCN : spellListEN;
 }

@@ -85,7 +85,7 @@
 
 .media-content .field {
     box-sizing: inherit;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
 }
 
 .is-grouped {
