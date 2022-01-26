@@ -1,6 +1,6 @@
 <template>
     <div class="db-boss">
-        <div class="title-boss db-title" @click="linkTo">
+        <div class="title-boss db-title" @click="linkTo(`${raidName}-${bossData}`)">
             {{ $t(`raid.${raidName}-${bossData}`) }}
         </div>
     </div>
@@ -26,7 +26,10 @@
         bossData: String,
         raidName: String,
     });
-    const linkTo = () => {
-        document.getElementById(`${props.raidName}-${props.bossData}`).scrollIntoView({ behavior: "smooth" });
+    const emit = defineEmits([
+        "linkTo",
+    ])
+    const linkTo = (args) => {
+        emit("linkTo", args);
     }
 </script>

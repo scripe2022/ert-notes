@@ -1,10 +1,10 @@
 <template>
     <div class="db-raid">
-        <div class="title-raid db-title" @click="linkTo">
+        <div class="title-raid db-title" @click="linkTo(`${raidData.name}-1`)">
             {{ $t('raid.' + raidData.name) }}
         </div>
         <div class="div-boss">
-            <EncounterBoss v-for="(item, index) in raidData.boss" :key="index" :bossData="item" :raidName="raidData.name"></EncounterBoss>
+            <EncounterBoss v-for="(item, index) in raidData.boss" :key="index" :bossData="item" :raidName="raidData.name" @linkTo="linkTo"></EncounterBoss>
         </div>
     </div>
 </template>
@@ -21,7 +21,10 @@
         raidData: Object,
     });
 
-    const linkTo = () => {
-        document.getElementById(`${props.raidData.name}-1`).scrollIntoView({ behavior: "smooth" });
+    const emit = defineEmits([
+        "linkTo",
+    ])
+    const linkTo = (args) => {
+        emit("linkTo", args);
     }
 </script>

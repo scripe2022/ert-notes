@@ -4,7 +4,7 @@
             {{ $t('raid.' + versionData.name) }}
         </div>
         <div class="div-raid">
-            <EncounterRaid v-for="(item, index) in versionData.raid" :key="index" :raidData="item"></EncounterRaid>
+            <EncounterRaid v-for="(item, index) in versionData.raid" :key="index" :raidData="item" @linkTo="linkTo"></EncounterRaid>
         </div>
     </div>
 </template>
@@ -21,4 +21,10 @@
     const props = defineProps({
         versionData: Object,
     });
+    const emit = defineEmits([
+        "linkTo",
+    ])
+    const linkTo = (args) => {
+        emit("linkTo", args);
+    }
 </script>

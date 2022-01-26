@@ -25,6 +25,10 @@
 </template>
 
 <style scoped>
+    .db-content {
+        max-width: 1000px;
+        margin: 2rem auto 0 auto;
+    }
     .raid-name {
         font-size: 2rem;
         margin-bottom: 0.5rem;
@@ -44,12 +48,15 @@
     }
     .row-id {
         flex-basis: 10%;
+        flex-shrink: 1;
     }
     .row-title {
         flex-basis: 20%;
+        flex-shrink: 2;
     }
     .row-content {
         flex-basis: 70%;
+        flex-shrink: 7;
     }
     .row-id, .row-title {
         display: flex;
