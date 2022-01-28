@@ -44,6 +44,8 @@
         position: fixed;
         top: 0;
         width: 100%;
+        box-shadow: 0 0 16px rgb(0 0 0 / 28%);
+        z-index: 2;
     }
     .boss-details:not(:last-child) {
         margin-bottom: 5rem;
@@ -66,7 +68,7 @@
         width: 300px;
         background-color: #363636;
         height: 100vh;
-        box-shadow: 0 0 16px rgb(0 0 0 / 28%);
+        /* box-shadow: 0 0 16px rgb(0 0 0 / 28%); */
         padding: 1rem;
         box-sizing: border-box;
         overflow-y: scroll;
