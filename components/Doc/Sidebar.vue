@@ -41,6 +41,7 @@
     .side-bar-column {
         margin: 0;
         padding: 0;
+        width: 300px;
     }
     .note-field {
         padding-top: 1rem;
