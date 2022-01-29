@@ -1,8 +1,4 @@
 @font-face {
-    font-family: "UbuntuMono";
-    src: url("/assets/fonts/UbuntuMono-Regular.ttf");
-}
-@font-face {
     font-family: "SegoeUI";
     src: url("/assets/fonts/SegoeUI.ttf");
 }
@@ -45,4 +41,37 @@ body {
 .level-items {
     vertical-align: middle;
     display: flex;
+}
+.side-bar-icon {
+    margin-left: 1rem;
+    width: 16.33px;
+    cursor: pointer;
+    align-self: center;
+}
+.side-bar-icon:hover {
+    color: #06C;
+}
+select {
+    background-color: #1c1c1c;
+    height: 2.5rem;
+    color: #FFF;
+    border: 1px solid rgba(74, 74, 74, 0.5);
+    border-radius: 4px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-weight: 500;
+}
+select:hover {
+    border: 1px solid rgba(181, 181, 181, 0.5);
+}
+select:focus, select:active {
+    border-color: #2b44ff;
+    box-shadow: 0 0 0 0.125em rgb(43, 68, 255 / 25%);
+    outline: none;
+}
+.select-language {
+    border: 1px solid #1C1C1C;
+    height: 100%;
+    cursor: pointer;
+    width: 80px;
 }

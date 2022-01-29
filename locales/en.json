@@ -21,7 +21,9 @@
     "timeSnippet": "Time Snippet",
     "spellSnippet": "Spell Snippet",
     "spellOccurrence": "Spell Occurrence",
-    "importWcl": "Load From Warcraftlogs"
+    "importWcl": "Load From Warcraftlogs",
+    "help": "Help",
+    "database": "Database"
   },
   "modal": {
     "timeSnippetEnterTime": "Enter a time:",

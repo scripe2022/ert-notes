@@ -29,11 +29,9 @@
 </template>
 
 <style>
-    .side-bar-icon {
-        align-self: center;
-    }
     .side-bar-language {
         height: 2.5rem;
+        margin-right: 0.75rem;
     }
     .encounter-navbar-menu {
         display: flex;

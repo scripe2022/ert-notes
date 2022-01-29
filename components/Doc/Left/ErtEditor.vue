@@ -94,7 +94,6 @@
         font-size: 1.1rem;
         line-height: 1.42;
         font-weight: 400;
-        font-family: "UbuntuMono";
     }
     .ProseMirror>* {
         cursor: text;
@@ -137,13 +136,13 @@
         color: #FFF;
         width: auto !important;
     }
-    a {
+    .wow-text {
         cursor: pointer;
         margin: 0px 4px;
         line-height: 1.5rem;
         font-size: 1rem;
     }
-    a:hover {
+    .wow-text:hover {
         filter: contrast(40%);
     }
 

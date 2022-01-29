@@ -158,6 +158,11 @@
         display: block;
         position: relative;
     }
+    select option {
+        padding: 0.25em 0.5em;
+        background-color: #1c1c1c;
+    }
+
     select {
         background-color: #1c1c1c;
         height: 2.5rem;
@@ -167,10 +172,6 @@
         padding-left: 0.25rem;
         padding-right: 0.25rem;
         font-weight: 500;
-    }
-    select option {
-        padding: 0.25em 0.5em;
-        background-color: #1c1c1c;
     }
     select:hover {
         border: 1px solid rgba(181, 181, 181, 0.5);

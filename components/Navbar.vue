@@ -9,19 +9,25 @@
         </span>
         <div class="one-column navbar-main" :class="{'use-single': single==undefined}">
             <div class="navbar-brand">
-                <a href="/" class="navbar-item navbar-link">ERT Notes</a>
+                <a href="/" class="navbar-item navbar-link" v-if="showNavbarTitle">ERT Notes</a>
             </div>
             <div class="navbar-menu">
+
+                <a class="navbar-item navbar-login navbar-a-tag" href="https://jyh.sb/?p=114" target="_blank">{{ $t('view.help') }}</a>
+                <a class="navbar-item navbar-login navbar-a-tag" href="/encounter" target="_blank">{{ $t('view.database') }}</a>
                 <span v-if="!userState.isLogin && single==undefined" class="navbar-item navbar-login" @click="login">{{ $t('view.login') }}</span>
                 <span v-if="!userState.isLogin && single==undefined" class="navbar-item navbar-login navbar-last" @click="register">{{ $t('view.register') }}</span>
                 <span v-if="userState.isLogin && single==undefined" class="navbar-item">{{ userState.username }}{{ userState.readonly?'[' + $t('view.readonly') + ']':'' }}</span>
                 <span v-if="userState.isLogin && single==undefined" class="navbar-item navbar-login navbar-last" @click="logout">{{ $t('view.logout') }}</span>
+
                 <div>
                     <select class="select-language" v-model="locale">
                         <option value="cn">中文</option>
                         <option value="en">English</option>
                     </select>
                 </div>
+                <!-- <span class="navbar-item navbar-login" @click="redirectToHelp">{{ $t('view.help') }}</span>
+                <span class="navbar-item navbar-login" @click="redirectTo">{{ $t('view.help') }}</span> -->
             </div>
         </div>
 
@@ -48,26 +54,15 @@
 </template>
 
 <style>
-    .select-language {
-        border: 1px solid #1C1C1C;
-        height: 100%;
-        cursor: pointer;
-        width: 80px;
-        margin-right: 0.75rem;
+    .navbar-a-tag {
+        text-decoration: none;
+        color: #FFF;
     }
     @media(min-width: 1754px) {
         .one-column.navbar-main.use-single {
             position: relative;
             right: 20px;
         }
-    }
-    .side-bar-icon {
-        margin-left: 1rem;
-        width: 16.33px;
-        cursor: pointer;
-    }
-    .side-bar-icon:hover {
-        color: #06C;
     }
     .navbar-login {
         cursor: pointer;
@@ -131,6 +126,13 @@
 
     import {useLoading} from 'vue-loading-overlay';
     import 'vue-loading-overlay/dist/vue-loading.css';
+
+
+    let showNavbarTitle = ref(false);
+    onMounted(() => {
+        const desktop = window.matchMedia('(min-width: 768px)');
+        if (desktop.matches) showNavbarTitle.value = true;
+    })
 
     let userinfo = ref([]);
 

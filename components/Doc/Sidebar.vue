@@ -38,10 +38,21 @@
         border-bottom: 1px solid #1C1C1C;
         box-shadow: 0 0 16px rgb(0 0 0 / 28%);
     }
+    @media (min-width: 768px) {
+        .side-bar-column {
+            width: 300px;
+        }
+    }
+    @media (max-width: 767px) {
+        .side-bar-column {
+            width: 100%;
+        }
+    }
     .side-bar-column {
         margin: 0;
-        padding: 0;
-        width: 300px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
     }
     .note-field {
         padding-top: 1rem;

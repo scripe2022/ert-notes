@@ -50,7 +50,8 @@
     }
 
     const copyUrl = () => {
-        navigator.clipboard.writeText(`${config.baseurl}/${noteArray.value[currentSelected.value].nid}`);
+        if (single.value == undefined) navigator.clipboard.writeText(`${config.baseurl}/${noteArray.value[currentSelected.value].nid}`);
+        else navigator.clipboard.writeText(`${config.baseurl}/${single.value.nid}`);
         $showToast('URL Copied!', 'success', 3000);
     }
 
