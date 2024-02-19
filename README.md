@@ -38,9 +38,9 @@ Click `[Load From Warcraftlogs]` above team members, enter the WCL battle log ad
 (If the battle log includes multiple battles, all members will be imported.)
 
 ### Dynamic Timers
-Insert a time marker in a line of the tactical board. This marker will convert into a dynamic countdown during the battle, with the entire line highlighted when the remaining time is under 10 seconds. `[Phase]` indicates the phase in which the timer operates, e.g.:
-Entering `time 1:23, Phase 2` means starting a `1:23` countdown after entering `P2`.
-Phase 0 indicates the timer operates throughout the entire battle (regardless of phase).
+Insert a time marker in a line of the tactical board. This marker will convert into a dynamic countdown during the battle, with the entire line highlighted when the remaining time is under 10 seconds. `[Phase]` indicates the phase in which the timer operates, e.g.:  
+Entering `time 1:23, Phase 2` means starting a `1:23` countdown after entering `P2`.  
+Phase 0 indicates the timer operates throughout the entire battle (regardless of phase).  
 **Phase function depends on DBM/Bigwigs plugins**
 
 ### Spell Timers
